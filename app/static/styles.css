@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    background-color: #f5f5f5;
+}
+
+/* Example color coding */
+.micn {
+    background-color: #FF9999;
+}
+
+.triage-rn {
+    background-color: #99CCFF;
+}
+
+.block {
+    position: relative;
+    margin-bottom: 0px; /* Adds spacing between blocks; adjust as needed */
+}
+
+.location-label {
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform-origin: left top;
+    margin-top: 2em; /* This might need to be adjusted, controls rotated up and down */
+    z-index: 1; /* Keeps the label above the table */
+}
+
+.block table {
+    margin-left: 30px; /* Provides space for the rotated label; adjust as needed */
+}
+
+/* Add more styles and classes as needed */
