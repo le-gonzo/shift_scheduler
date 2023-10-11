@@ -1,0 +1,368 @@
+Date,Entity,Coverage Period,Department,DateDetail,Name,Role,Contact,Code,Value
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-06 12:50:00,"Cabalo, Monica",PCC/CHG,(714) 343-8069,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-06 08:22:00,"De La Cruz, Cherish",PCC/CHG,(626) 363-4333,AD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 09:03:00,"Stapatyanon, Nancy",PCC/CHG,(714) 356-7952,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-22 21:01:00,"Aguilar, Ana",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 15:30:00,"Alair, Jeffrey",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 16:35:00,"Amin, Aneri",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-23 15:07:00,"Bolger, Sadie",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 13:35:00,"Campa, Kailee",CN,,D12-ED,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-16 17:27:00,"Canas, Natalie",CN,,ORT-D,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 09:06:00,"Cayabyab, Patrick",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 00:05:00,"Cudia, Camille",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 12:49:00,"Decker, Pamela",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-31 16:38:00,"Enos, Dylan",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 19:10:00,"Fong, Faith",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 07:41:00,"Hammond, McKenzie",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-10-09 11:06:00,"Harrington, Lauren",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-10-05 20:34:00,"Jaramillo, Jonathan",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-10-09 10:35:00,"Kelley, Daniel",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 02:15:00,"Lee, Evelyn",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 16:03:00,"Lok, Somrennah",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-11 10:44:00,"Ocampo, Elaine",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 06:52:00,"Ortiz, Jenice",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 19:49:00,"Santacruz, Jacklyn",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 07:21:00,"Soulliere, Edward",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-22 13:16:00,"Vo, Emily",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-28 13:58:00,"Wade, Jennifer",CN,,D12-ED,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 07:31:00,"Walker, Brian",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 10:52:00,"Williams, Krystal Ann",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 12:24:00,"Hsu, Isabel",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 07:33:00,"La, Thy-Connie",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-25 09:52:00,"Prejido, Alexandria",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 11:42:00,"Ruhlander, Aaron",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 14:05:00,"Sanchez, Susan",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-21 13:39:00,"Wang, Hau",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-21 07:42:00,"Munson, Jennifer",MICN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-08 18:49:00,"Di Gerolamo, Joseph",STT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-21 13:58:00,"Matheson, Scott",STT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-17 22:24:00,"Power, Cassandra",HUSC,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-27 17:40:00,"Batarseh, Nisreen",,,OFF,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-10-04 13:57:00,"Calara, Carmina",,,OFF,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-03 05:25:00,"Truong, Takara",,,OFF,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 10:03:00,"Matejka, Kristen",CN-PD,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-21 18:43:00,"Reyes, Dylan",CN-PD,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 00:33:00,"Gomez, David",MT,(714) 924-6617,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-27 10:22:00,"Chang, Elliya",SHA,,ERSITD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-27 18:29:00,"Figueroa, Angela",SHA,,ORT-D,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-17 23:49:00,"Gutierrez, Joshua",SHA,,ERSITD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-10-03 18:03:00,"Rodriguez Cervantes, Nancy",SHA,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-28 08:56:00,"Villanueva, Alfredo",SHA,(714) 773-0797,ERSITD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-09-25 15:36:00,"Ko, Peter",SHA-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-10-10 04:23:00,"Taye, Yeshi",SHA-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-20 00:05:00,"David, Angel",SPT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 1,427231 - Emergency Dept,2023-08-21 07:34:00,"Serrano, Angela",SPT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-06 12:50:00,"Cabalo, Monica",PCC/CHG,(714) 343-8069,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-06 08:22:00,"De La Cruz, Cherish",PCC/CHG,(626) 363-4333,AD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 09:03:00,"Stapatyanon, Nancy",PCC/CHG,(714) 356-7952,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-22 21:01:00,"Aguilar, Ana",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 15:30:00,"Alair, Jeffrey",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 16:35:00,"Amin, Aneri",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-23 15:07:00,"Bolger, Sadie",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 13:35:00,"Campa, Kailee",CN,,D12-ED,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-16 17:27:00,"Canas, Natalie",CN,,ORT-D,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 09:06:00,"Cayabyab, Patrick",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 00:05:00,"Cudia, Camille",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 12:49:00,"Decker, Pamela",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-12 08:13:00,"Dorzok, Nicole",CN,,D8-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-31 16:38:00,"Enos, Dylan",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 19:10:00,"Fong, Faith",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 07:41:00,"Hammond, McKenzie",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-10-09 11:06:00,"Harrington, Lauren",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-26 20:23:00,"Hein, Christen",CN,,D12-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-10-05 20:34:00,"Jaramillo, Jonathan",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-10-09 10:35:00,"Kelley, Daniel",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 02:15:00,"Lee, Evelyn",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 16:03:00,"Lok, Somrennah",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-21 17:35:00,"Murcia, Megan",CN,,D8-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-28 14:28:00,"Nguyen, Hung",CN,,D12-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-10-02 15:07:00,"Nguyen, Johnny",CN,(714) 735-9757,D12-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-15 20:54:00,"Nguyen, Vincent",CN,,D12-1300,2.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-11 10:44:00,"Ocampo, Elaine",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 06:52:00,"Ortiz, Jenice",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-15 19:27:00,"Phegley, Alexis",CN,,D8-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 19:49:00,"Santacruz, Jacklyn",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 07:21:00,"Soulliere, Edward",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-22 13:16:00,"Vo, Emily",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-28 13:58:00,"Wade, Jennifer",CN,,D12-ED,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 07:31:00,"Walker, Brian",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 10:52:00,"Williams, Krystal Ann",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 12:24:00,"Hsu, Isabel",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 07:33:00,"La, Thy-Connie",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-25 09:52:00,"Prejido, Alexandria",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 11:42:00,"Ruhlander, Aaron",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 14:05:00,"Sanchez, Susan",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-21 13:39:00,"Wang, Hau",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-21 07:42:00,"Munson, Jennifer",MICN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-21 15:33:00,"Garcia-Pacheco, Lewis",PE,,D8-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-08 18:49:00,"Di Gerolamo, Joseph",STT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-21 13:58:00,"Matheson, Scott",STT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-17 22:24:00,"Power, Cassandra",HUSC,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-27 17:40:00,"Batarseh, Nisreen",,,OFF,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-10-04 13:57:00,"Calara, Carmina",,,OFF,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-03 05:25:00,"Truong, Takara",,,OFF,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 10:03:00,"Matejka, Kristen",CN-PD,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-21 18:43:00,"Reyes, Dylan",CN-PD,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 00:33:00,"Gomez, David",MT,(714) 924-6617,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-27 10:22:00,"Chang, Elliya",SHA,,ERSITD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-27 18:29:00,"Figueroa, Angela",SHA,,ORT-D,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-17 23:49:00,"Gutierrez, Joshua",SHA,,ERSITD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-10-03 18:03:00,"Rodriguez Cervantes, Nancy",SHA,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-28 08:56:00,"Villanueva, Alfredo",SHA,(714) 773-0797,ERSITD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-09-25 15:36:00,"Ko, Peter",SHA-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-10-10 04:23:00,"Taye, Yeshi",SHA-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-20 00:05:00,"David, Angel",SPT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,DAY 2,427231 - Emergency Dept,2023-08-21 07:34:00,"Serrano, Angela",SPT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-06 12:50:00,"Cabalo, Monica",PCC/CHG,(714) 343-8069,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-06 08:22:00,"De La Cruz, Cherish",PCC/CHG,(626) 363-4333,AD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 09:03:00,"Stapatyanon, Nancy",PCC/CHG,(714) 356-7952,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-22 21:01:00,"Aguilar, Ana",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 15:30:00,"Alair, Jeffrey",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 16:35:00,"Amin, Aneri",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-23 15:07:00,"Bolger, Sadie",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 13:35:00,"Campa, Kailee",CN,,D12-ED,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-16 17:27:00,"Canas, Natalie",CN,,ORT-D,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 09:06:00,"Cayabyab, Patrick",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 00:05:00,"Cudia, Camille",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 12:49:00,"Decker, Pamela",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-12 08:13:00,"Dorzok, Nicole",CN,,D8-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-31 16:38:00,"Enos, Dylan",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 19:10:00,"Fong, Faith",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 07:41:00,"Hammond, McKenzie",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-10-09 11:06:00,"Harrington, Lauren",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-26 20:23:00,"Hein, Christen",CN,,D12-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-10-05 20:34:00,"Jaramillo, Jonathan",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-10-09 10:35:00,"Kelley, Daniel",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 02:15:00,"Lee, Evelyn",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 16:03:00,"Lok, Somrennah",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-21 17:35:00,"Murcia, Megan",CN,,D8-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-28 14:28:00,"Nguyen, Hung",CN,,D12-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-10-02 15:07:00,"Nguyen, Johnny",CN,(714) 735-9757,D12-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-15 20:54:00,"Nguyen, Vincent",CN,,D12-1300,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-11 10:44:00,"Ocampo, Elaine",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 06:52:00,"Ortiz, Jenice",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-15 19:27:00,"Phegley, Alexis",CN,,D8-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 19:49:00,"Santacruz, Jacklyn",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 04:46:00,"Solomon, Madeline",CN,,E12-1500,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 07:21:00,"Soulliere, Edward",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-22 13:16:00,"Vo, Emily",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-28 13:58:00,"Wade, Jennifer",CN,,D12-ED,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 07:31:00,"Walker, Brian",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 10:52:00,"Williams, Krystal Ann",CN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 12:24:00,"Hsu, Isabel",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 07:33:00,"La, Thy-Connie",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-25 09:52:00,"Prejido, Alexandria",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 11:42:00,"Ruhlander, Aaron",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 14:05:00,"Sanchez, Susan",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-21 13:39:00,"Wang, Hau",CN-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-21 07:42:00,"Munson, Jennifer",MICN,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-21 15:33:00,"Garcia-Pacheco, Lewis",PE,,D8-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-08 18:49:00,"Di Gerolamo, Joseph",STT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-21 13:58:00,"Matheson, Scott",STT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-17 22:24:00,"Power, Cassandra",HUSC,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-27 17:40:00,"Batarseh, Nisreen",,,OFF,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-10-04 13:57:00,"Calara, Carmina",,,OFF,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-03 05:25:00,"Truong, Takara",,,OFF,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 10:03:00,"Matejka, Kristen",CN-PD,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-21 18:43:00,"Reyes, Dylan",CN-PD,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 00:33:00,"Gomez, David",MT,(714) 924-6617,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-27 10:22:00,"Chang, Elliya",SHA,,ERSITD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-27 18:29:00,"Figueroa, Angela",SHA,,ORT-D,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-17 23:49:00,"Gutierrez, Joshua",SHA,,ERSITD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-10-03 18:03:00,"Rodriguez Cervantes, Nancy",SHA,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-28 08:56:00,"Villanueva, Alfredo",SHA,(714) 773-0797,ERSITD,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-09-25 15:36:00,"Ko, Peter",SHA-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-10-10 04:23:00,"Taye, Yeshi",SHA-EDA,,D12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-20 00:05:00,"David, Angel",SPT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 1,427231 - Emergency Dept,2023-08-21 07:34:00,"Serrano, Angela",SPT,,D12-0700,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 00:18:00,"Xavier, Josline",PCC/CHG,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-02 00:54:00,"York, Richard",PCC/CHG,(949) 837-7099,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-02 02:25:00,"Acosta, Fredy",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 00:52:00,"Alonzo, Megan",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 00:08:00,"Arnett, Deserhae",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 00:13:00,"Balansi, Kherwyn",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 11:05:00,"Bantigue, Janille",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 11:04:00,"Bernardino, Joie Fe Nazarene",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-24 02:23:00,"Cruz, Mario",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 02:38:00,"Denev, Audrey",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-21 03:13:00,"Franco, Angelique Carisse",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 08:23:00,"Harmon, Luke",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-26 20:23:00,"Hein, Christen",CN,,D12-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-10-04 17:02:00,"Ho, Joelle",CN,,ORT-N,3.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 15:06:00,"Lara, Jessica",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-13 23:27:00,"Lin, Ashley",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-26 21:50:00,"Luna, Rhodelicia",CN,(909) 393-4098,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-10-04 17:03:00,"Nguyen, David",CN,,N8-1900,3.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-28 14:28:00,"Nguyen, Hung",CN,,D12-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 00:24:00,"Nguyen, Johnathan",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-10-02 15:07:00,"Nguyen, Johnny",CN,(714) 735-9757,D12-1100,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-15 20:54:00,"Nguyen, Vincent",CN,,D12-1300,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 07:18:00,"Orozco, Oscar",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-21 01:16:00,"Pervitsky, Helen",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-18 10:54:00,"Petsas, Sarah",CN,,ORT-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-14 05:57:00,"Revil, Joshua",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-27 15:23:00,"Rincon, Alyssa",CN,,ORT-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 04:46:00,"Solomon, Madeline",CN,,E12-1500,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 06:33:00,"Stepp, Sherlene",CN,(714) 761-1777,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-23 02:15:00,"Tong, Tram",CN,,ORT,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-22 08:07:00,"Tran, Vivi Jennifer",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 00:28:00,"Triplett, Christopher",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-29 06:46:00,"Valerin, Adolfo",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 05:35:00,"Williams, Cory",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-24 19:26:00,"Yjares, Paul Christian",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-17 03:35:00,"Bower, Madison",CN-Breaker,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-18 10:27:00,"Chung, Yen",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-10-05 13:09:00,"Gan, Kathrina",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-28 14:40:00,"Hua, Hoang",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 00:10:00,"Khimthang, Sandra",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 00:05:00,"Phan, Tammy",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 05:33:00,"Williams-Medrano, Cinthia",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-23 10:10:00,"Castro, Manuel",MICN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-16 02:26:00,"Garza, Amariah",PE,,N8-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 07:40:00,"Lujan, Edward",STT,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-30 22:53:00,"Majmudar, Sarang",STT,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-05 16:01:00,"Lopez, Liliana",HUSC,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-21 01:56:00,"Henry, Kyleigh",CN-PD,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-20 00:31:00,"Jauregui, Christian",MT,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-15 06:14:00,"Castillon, Raquel",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-08-27 03:18:00,"Franklin, Casandra",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-18 05:20:00,"Harris, Crystal",SHA,,AVAIL-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-10-01 00:18:00,"Krchnavy, Madison",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-10-06 06:09:00,"Lipkins, Jade",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-10-08 16:21:00,"Steinbock, Emma",SHA,,ORT-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,EVE 2,427231 - Emergency Dept,2023-09-02 04:32:00,"Ramirez, Inez",SPT,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 20:48:00,"Gomez, Elizabeth",PCC/CHG,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-22 09:29:00,"Hoffman, Tori",PCC/CHG,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:18:00,"Xavier, Josline",PCC/CHG,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-02 00:54:00,"York, Richard",PCC/CHG,(949) 837-7099,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-02 02:25:00,"Acosta, Fredy",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:52:00,"Alonzo, Megan",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 16:35:00,"Amin, Aneri",CN,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:08:00,"Arnett, Deserhae",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:13:00,"Balansi, Kherwyn",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 11:05:00,"Bantigue, Janille",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 11:13:00,"Bantigue, Janille",CN,,MTG,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-22 09:43:00,"Bentzen, Rianna",CN,,CE,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 11:04:00,"Bernardino, Joie Fe Nazarene",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 11:13:00,"Bernardino, Joie Fe Nazarene",CN,,MTG,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-15 18:38:00,"Calara, Carmina",CN,,LOA,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-24 02:23:00,"Cruz, Mario",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 02:38:00,"Denev, Audrey",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-28 12:42:00,"Fontillas, Milagros",CN,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-21 03:13:00,"Franco, Angelique Carisse",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:29:00,"Garcia, Christopher",CN,,CE,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-22 12:51:00,"Hammond, McKenzie",CN,,CE,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-26 01:50:00,"Hancock, Nicole",CN,,CE,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 08:23:00,"Harmon, Luke",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-05 15:38:00,"Haxby, Katherine",CN,,MTG,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:04:00,"Hein, Christen",CN,,MTG,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-30 14:41:00,"Jaramillo, Jonathan",CN,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 15:06:00,"Lara, Jessica",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 02:15:00,"Lee, Evelyn",CN,,MTG,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-13 23:27:00,"Lin, Ashley",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-21 12:48:00,"Litos, Lula",CN,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-23 13:56:00,"Lomanog, Cherry Ann",CN,,MTG,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-26 21:50:00,"Luna, Rhodelicia",CN,(909) 393-4098,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:18:00,"Masiddo, Mars Eli",CN,,MTG,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-04 10:20:00,"Mattis, Nicole",CN,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 23:00:00,"Mendoza, Nina",CN,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-24 09:17:00,"Moorehead, Amanda",CN,,CE,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:24:00,"Nguyen, Johnathan",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:04:00,"Nguyen, Theresa",CN,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-15 20:54:00,"Nguyen, Vincent",CN,,D12-1300,2.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 07:18:00,"Orozco, Oscar",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-21 01:16:00,"Pervitsky, Helen",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-18 10:54:00,"Petsas, Sarah",CN,,ORT-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-14 05:57:00,"Revil, Joshua",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-27 15:23:00,"Rincon, Alyssa",CN,,ORT-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-24 10:10:00,"Silva-Colon, Estephannia",CN,,CE,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 04:46:00,"Solomon, Madeline",CN,,E12-1500,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 08:56:00,"Stapatyanon, Nancy",CN,(714) 356-7952,MTG,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 06:33:00,"Stepp, Sherlene",CN,(714) 761-1777,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 06:24:00,"Stepp, Sherlene",CN,(714) 761-1777,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 12:14:00,"Taylor, Adrienne",CN,,MTG,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-23 02:15:00,"Tong, Tram",CN,,ORT,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-22 08:07:00,"Tran, Vivi Jennifer",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-06 16:32:00,"Tran, Vivi Jennifer",CN,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:28:00,"Triplett, Christopher",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-23 08:11:00,"Truong, Takara",CN,,CE,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-09 20:21:00,"Turner, Matthew",CN,,MTG,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-29 06:46:00,"Valerin, Adolfo",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-26 06:56:00,"Valerin, Adolfo",CN,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 05:35:00,"Williams, Cory",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 06:45:00,"Yang, Jackie",CN,,CE,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-24 19:26:00,"Yjares, Paul Christian",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-17 03:35:00,"Bower, Madison",CN-Breaker,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-18 10:27:00,"Chung, Yen",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-10-05 13:09:00,"Gan, Kathrina",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-28 14:40:00,"Hua, Hoang",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:10:00,"Khimthang, Sandra",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-30 22:06:00,"Pham, Nguyet",CN-EDA,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:05:00,"Phan, Tammy",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 05:33:00,"Williams-Medrano, Cinthia",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-23 10:10:00,"Castro, Manuel",MICN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-16 02:26:00,"Garza, Amariah",PE,,N8-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 07:40:00,"Lujan, Edward",STT,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-30 22:53:00,"Majmudar, Sarang",STT,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-21 13:58:00,"Matheson, Scott",STT,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-09 08:02:00,"Tengco, Andre",STT,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-05 16:01:00,"Lopez, Liliana",HUSC,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-21 01:56:00,"Henry, Kyleigh",CN-PD,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-01 06:54:00,"Monjaras De La O, Leonidas",CN-PD,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-20 00:31:00,"Jauregui, Christian",MT,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-31 10:49:00,"Stout, Melinda",MT,,RO,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-15 06:14:00,"Castillon, Raquel",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-08-27 03:18:00,"Franklin, Casandra",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-18 05:20:00,"Harris, Crystal",SHA,,AVAIL-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-10-01 00:18:00,"Krchnavy, Madison",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-10-06 06:09:00,"Lipkins, Jade",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-10-03 02:52:00,"Smith, Naquiesha",SHA,,LOA,0.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-10-08 16:21:00,"Steinbock, Emma",SHA,,ORT-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 1,427231 - Emergency Dept,2023-09-02 04:32:00,"Ramirez, Inez",SPT,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 00:18:00,"Xavier, Josline",PCC/CHG,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-02 00:54:00,"York, Richard",PCC/CHG,(949) 837-7099,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-02 02:25:00,"Acosta, Fredy",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 00:52:00,"Alonzo, Megan",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 00:08:00,"Arnett, Deserhae",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 00:13:00,"Balansi, Kherwyn",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 11:05:00,"Bantigue, Janille",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 11:04:00,"Bernardino, Joie Fe Nazarene",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-24 02:23:00,"Cruz, Mario",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 02:38:00,"Denev, Audrey",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-21 03:13:00,"Franco, Angelique Carisse",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 08:23:00,"Harmon, Luke",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 15:06:00,"Lara, Jessica",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-13 23:27:00,"Lin, Ashley",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-26 21:50:00,"Luna, Rhodelicia",CN,(909) 393-4098,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 00:24:00,"Nguyen, Johnathan",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 07:18:00,"Orozco, Oscar",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-21 01:16:00,"Pervitsky, Helen",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-18 10:54:00,"Petsas, Sarah",CN,,ORT-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-14 05:57:00,"Revil, Joshua",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 06:33:00,"Stepp, Sherlene",CN,(714) 761-1777,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-23 02:15:00,"Tong, Tram",CN,,ORT,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-22 08:07:00,"Tran, Vivi Jennifer",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 00:28:00,"Triplett, Christopher",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-29 06:46:00,"Valerin, Adolfo",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 05:35:00,"Williams, Cory",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-24 19:26:00,"Yjares, Paul Christian",CN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-17 03:35:00,"Bower, Madison",CN-Breaker,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-18 10:27:00,"Chung, Yen",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-10-05 13:09:00,"Gan, Kathrina",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-28 14:40:00,"Hua, Hoang",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 00:10:00,"Khimthang, Sandra",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 00:05:00,"Phan, Tammy",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 05:33:00,"Williams-Medrano, Cinthia",CN-EDA,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-23 10:10:00,"Castro, Manuel",MICN,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 07:40:00,"Lujan, Edward",STT,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-30 22:53:00,"Majmudar, Sarang",STT,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-05 16:01:00,"Lopez, Liliana",HUSC,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-21 01:56:00,"Henry, Kyleigh",CN-PD,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-20 00:31:00,"Jauregui, Christian",MT,,N12-EDA,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-15 06:14:00,"Castillon, Raquel",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-08-27 03:18:00,"Franklin, Casandra",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-18 05:20:00,"Harris, Crystal",SHA,,AVAIL-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-10-01 00:18:00,"Krchnavy, Madison",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-10-06 06:09:00,"Lipkins, Jade",SHA,,N12-1900,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-10-08 16:21:00,"Steinbock, Emma",SHA,,ORT-N,4.0
+2023-10-10,UCIMC - University of California - Irvine Medical Center,NIGHT 2,427231 - Emergency Dept,2023-09-02 04:32:00,"Ramirez, Inez",SPT,,N12-1900,4.0

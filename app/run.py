@@ -1,6 +1,21 @@
-from flask import Flask, render_template
+import os
 
-app = Flask(__name__, template_folder='./templates')
+from flask import Flask, render_template, request
+from config import SQLALCHEMY_DATABASE_URI, SQLALCHEMY_TRACK_MODIFICATIONS
+
+
+UPLOAD_FOLDER = 'uploads'
+ALLOWED_EXTENSIONS = {'xml'}
+
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = SQLALCHEMY_TRACK_MODIFICATIONS
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 @app.route('/')
 def home():
@@ -20,11 +35,24 @@ def display_schedule():
             'assignments': [
                 {
                     'role': 'ANM',
-                    'locker': '1'
+                    'locker': '1',
+                    'employee': 'nurse1'
                 },
                 {
                     'role': 'PCC',
-                    'locker': '2'
+                    'locker': '2',
+                    'employee': 'nurse2'
+                }
+            ]
+        },
+        {
+            'name': 'MICN',
+            'timeslots': ['0700', '1100', '1500', '1900', '2300', '0300'],
+            'assignments': [
+                {
+                    'role': 'MICN',
+                    'locker': '41',
+                    'employee': 'MICN1'
                 }
             ]
         },
@@ -33,21 +61,61 @@ def display_schedule():
             'timeslots': ['0700', '1100', '1500', '1900', '2300', '0300'],
             'assignments': [
                 {
-                    'role': 'MICN',
-                    'locker': '1'
+                    'role': 'TCC',
+                    'locker': '1',
+                    'employee': 'TCC1'
                 },
                 {
-                    'role': 'Triage RN',
-                    'locker': '2'
+                    'role': 'Triage RN 1',
+                    'locker': '2',
+                    'employee': 'Triage_RN1'
                 },
                 {
                     'role': 'Triage RN 2',
-                    'locker': '8'
+                    'locker': '8',
+                    'employee': 'employee_name'
                 },
                 {
-                    'role': 'IRN',
-                    'locker': '9'
+                    'role': 'TRN',
+                    'locker': '9',
+                    'employee': 'employee_name'
+                },
+                {
+                    'role': 'RTS #1',
+                    'locker': '9',
+                    'employee': 'employee_name'
+                },
+                {
+                    'role': 'RTS #2',
+                    'locker': '9',
+                    'employee': 'employee_name'
+                },
+                {
+                    'role': 'Surveillance RN (1200)',
+                    'locker': '9',
+                    'employee': 'employee_name'
+                },
+                {
+                    'role': 'Team DC RN (1300)',
+                    'locker': '9',
+                    'employee': 'employee_name'
+                },
+                {
+                    'role': 'FastTrack',
+                    'locker': '9',
+                    'employee': 'employee_name'
+                },
+                {
+                    'role': 'Triage Break RN',
+                    'locker': '9',
+                    'employee': 'employee_name'
+                },
+                {
+                    'role': 'SHA',
+                    'locker': '9',
+                    'employee': 'employee_name'
                 }
+
             ]
         },
         {
@@ -56,11 +124,13 @@ def display_schedule():
             'assignments': [
                 {
                     'role': 'Trauma RN 1',
-                    'locker': '10'
+                    'locker': '10',
+                    'employee': 'employee_name'
                 },
                 {
                     'role': 'Trauma RN 2',
-                    'locker': '14'
+                    'locker': '14',
+                    'employee': 'employee_name'
                 }
             ]
         },
@@ -70,11 +140,13 @@ def display_schedule():
             'assignments': [
                 {
                     'role': 'SIT',
-                    'locker': '15'
+                    'locker': '15',
+                    'employee': 'employee_name'
                 },
                 {
                     'role': 'E,F,G,H',
-                    'locker': '16'
+                    'locker': '16',
+                    'employee': 'employee_name'
                 }
             ]
         }
@@ -84,6 +156,27 @@ def display_schedule():
     'staffing_issues': 'Short-staffed for night shift' # example staffing issues
 }
     return render_template('schedule.html', schedule=schedule)
+
+@app.route('/upload', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        if 'file' not in request.files:
+            return 'No file part in the request.'
+
+        file = request.files['file']
+
+        if file.filename == '':
+            return 'No selected file.'
+
+        if file and allowed_file(file.filename):
+            filename = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
+            file.save(filename)
+            return 'File uploaded successfully!'
+
+        return 'Allowed file types are .xml'
+    else:
+        return render_template('upload.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

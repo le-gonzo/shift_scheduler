@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report  Name="Daily Roster by Shift"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="Daily_x0020_Roster_x0020_by_x0020_Shift">
+	<subreport1>
+		<Report Name="Daily Roster Sub-Report">
+			<table1>
+				<table1_ReportDate_Collection>
+					<table1_ReportDate>
+						<schedule_group_order_Collection>
+							<schedule_group_order>
+								<table1_TrunkOrganizationUnitCode_Collection>
+									<table1_TrunkOrganizationUnitCode textbox56="Date: October 10, 2023" textbox62="Entity: UCIMC - University of California - Irvine Medical Center">
+										<table1_BranchOrganizationUnitCode_CoverageSort_Collection>
+											<table1_BranchOrganizationUnitCode_CoverageSort>
+												<table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+													<table1_LeafOrganizationUnitCode_CoverageCode textbox175="Coverage Period: DAY 1">
+														<table1_CoveragePeriodSort_Branch_Collection>
+															<table1_CoveragePeriodSort_Branch>
+																<table1_CoveragePeriodCode_Leaf_Collection>
+																	<table1_CoveragePeriodCode_Leaf textbox257="Department: 427231 - Emergency Dept     ">
+																		<table2 />
+																		<RowType_Collection>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/06/2023 12:50" textbox37="Cabalo, Monica" textbox38="PCC/CHG" textbox39="(714) 343-8069" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/06/2023 08:22" textbox37="De La Cruz, Cherish" textbox38="PCC/CHG" textbox39="(626) 363-4333" textbox40="AD" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 09:03" textbox37="Stapatyanon, Nancy" textbox38="PCC/CHG" textbox39="(714) 356-7952" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/22/2023 21:01" textbox37="Aguilar, Ana" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 15:30" textbox37="Alair, Jeffrey" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 16:35" textbox37="Amin, Aneri" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/23/2023 15:07" textbox37="Bolger, Sadie" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/20/2023 13:35" textbox37="Campa, Kailee" textbox38="CN" textbox39="" textbox40="D12-ED" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/16/2023 17:27" textbox37="Canas, Natalie" textbox38="CN" textbox39="" textbox40="ORT-D" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 09:06" textbox37="Cayabyab, Patrick" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:05" textbox37="Cudia, Camille" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 12:49" textbox37="Decker, Pamela" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/31/2023 16:38" textbox37="Enos, Dylan" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 19:10" textbox37="Fong, Faith" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:41" textbox37="Hammond, McKenzie" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/09/2023 11:06" textbox37="Harrington, Lauren" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/05/2023 20:34" textbox37="Jaramillo, Jonathan" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/09/2023 10:35" textbox37="Kelley, Daniel" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 02:15" textbox37="Lee, Evelyn" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 16:03" textbox37="Lok, Somrennah" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/11/2023 10:44" textbox37="Ocampo, Elaine" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 06:52" textbox37="Ortiz, Jenice" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 19:49" textbox37="Santacruz, Jacklyn" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:21" textbox37="Soulliere, Edward" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/22/2023 13:16" textbox37="Vo, Emily" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/28/2023 13:58" textbox37="Wade, Jennifer" textbox38="CN" textbox39="" textbox40="D12-ED" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:31" textbox37="Walker, Brian" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 10:52" textbox37="Williams, Krystal Ann" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 12:24" textbox37="Hsu, Isabel" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:33" textbox37="La, Thy-Connie" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/25/2023 09:52" textbox37="Prejido, Alexandria" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/20/2023 11:42" textbox37="Ruhlander, Aaron" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 14:05" textbox37="Sanchez, Susan" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 13:39" textbox37="Wang, Hau" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 07:42" textbox37="Munson, Jennifer" textbox38="MICN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/08/2023 18:49" textbox37="Di Gerolamo, Joseph" textbox38="STT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 13:58" textbox37="Matheson, Scott" textbox38="STT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/17/2023 22:24" textbox37="Power, Cassandra" textbox38="HUSC" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="N" textbox47="09/27/2023 17:40" textbox37="Batarseh, Nisreen" textbox38="" textbox39="" textbox40="OFF" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="10/04/2023 13:57" textbox37="Calara, Carmina" textbox38="" textbox39="" textbox40="OFF" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/03/2023 05:25" textbox37="Truong, Takara" textbox38="" textbox39="" textbox40="OFF" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 10:03" textbox37="Matejka, Kristen" textbox38="CN-PD" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 18:43" textbox37="Reyes, Dylan" textbox38="CN-PD" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:33" textbox37="Gomez, David" textbox38="MT" textbox39="(714) 924-6617" textbox40="D12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="FN" textbox47="09/27/2023 10:22" textbox37="Chang, Elliya" textbox38="SHA" textbox39="" textbox40="ERSITD" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/27/2023 18:29" textbox37="Figueroa, Angela" textbox38="SHA" textbox39="" textbox40="ORT-D" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="FN" textbox47="09/17/2023 23:49" textbox37="Gutierrez, Joshua" textbox38="SHA" textbox39="" textbox40="ERSITD" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/03/2023 18:03" textbox37="Rodriguez Cervantes, Nancy" textbox38="SHA" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="FN" textbox47="08/28/2023 08:56" textbox37="Villanueva, Alfredo" textbox38="SHA" textbox39="(714) 773-0797" textbox40="ERSITD" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/25/2023 15:36" textbox37="Ko, Peter" textbox38="SHA-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/10/2023 04:23" textbox37="Taye, Yeshi" textbox38="SHA-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:05" textbox37="David, Angel" textbox38="SPT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 07:34" textbox37="Serrano, Angela" textbox38="SPT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance" />
+																			</RowType>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PCC/CHG" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MICN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="STT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="HUSC" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-PD" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="ER-SITSAFE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SPT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance">
+																					<Profile_Collection>
+																						<Profile textbox69="PCC/CHG" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="CN" textbox75="24.00" textbox76="23.00" textbox77="1.00" />
+																						<Profile textbox69="CN-EDA" textbox75="6.00" textbox76="6.00" textbox77="0.00" />
+																						<Profile textbox69="MICN" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="PE" textbox75="0.00" textbox76="1.00" textbox77="-1.00" />
+																						<Profile textbox69="STT" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="HUSC" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="CN-PD" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="ER-SITSAFE" textbox75="0.00" textbox76="1.00" textbox77="-1.00" />
+																						<Profile textbox69="MT" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="SHA" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																						<Profile textbox69="SHA-EDA" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="SPT" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																					</Profile_Collection>
+																				</table3>
+																			</RowType>
+																		</RowType_Collection>
+																	</table1_CoveragePeriodCode_Leaf>
+																</table1_CoveragePeriodCode_Leaf_Collection>
+															</table1_CoveragePeriodSort_Branch>
+														</table1_CoveragePeriodSort_Branch_Collection>
+													</table1_LeafOrganizationUnitCode_CoverageCode>
+												</table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+											</table1_BranchOrganizationUnitCode_CoverageSort>
+											<table1_BranchOrganizationUnitCode_CoverageSort>
+												<table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+													<table1_LeafOrganizationUnitCode_CoverageCode textbox175="Coverage Period: DAY 2">
+														<table1_CoveragePeriodSort_Branch_Collection>
+															<table1_CoveragePeriodSort_Branch>
+																<table1_CoveragePeriodCode_Leaf_Collection>
+																	<table1_CoveragePeriodCode_Leaf textbox257="Department: 427231 - Emergency Dept     ">
+																		<table2 />
+																		<RowType_Collection>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/06/2023 12:50" textbox37="Cabalo, Monica" textbox38="PCC/CHG" textbox39="(714) 343-8069" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/06/2023 08:22" textbox37="De La Cruz, Cherish" textbox38="PCC/CHG" textbox39="(626) 363-4333" textbox40="AD" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 09:03" textbox37="Stapatyanon, Nancy" textbox38="PCC/CHG" textbox39="(714) 356-7952" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/22/2023 21:01" textbox37="Aguilar, Ana" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 15:30" textbox37="Alair, Jeffrey" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 16:35" textbox37="Amin, Aneri" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/23/2023 15:07" textbox37="Bolger, Sadie" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/20/2023 13:35" textbox37="Campa, Kailee" textbox38="CN" textbox39="" textbox40="D12-ED" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/16/2023 17:27" textbox37="Canas, Natalie" textbox38="CN" textbox39="" textbox40="ORT-D" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 09:06" textbox37="Cayabyab, Patrick" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:05" textbox37="Cudia, Camille" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 12:49" textbox37="Decker, Pamela" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/12/2023 08:13" textbox37="Dorzok, Nicole" textbox38="CN" textbox39="" textbox40="D8-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/31/2023 16:38" textbox37="Enos, Dylan" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 19:10" textbox37="Fong, Faith" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:41" textbox37="Hammond, McKenzie" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/09/2023 11:06" textbox37="Harrington, Lauren" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/26/2023 20:23" textbox37="Hein, Christen" textbox38="CN" textbox39="" textbox40="D12-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/05/2023 20:34" textbox37="Jaramillo, Jonathan" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/09/2023 10:35" textbox37="Kelley, Daniel" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 02:15" textbox37="Lee, Evelyn" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 16:03" textbox37="Lok, Somrennah" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 17:35" textbox37="Murcia, Megan" textbox38="CN" textbox39="" textbox40="D8-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/28/2023 14:28" textbox37="Nguyen, Hung" textbox38="CN" textbox39="" textbox40="D12-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/02/2023 15:07" textbox37="Nguyen, Johnny" textbox38="CN" textbox39="(714) 735-9757" textbox40="D12-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/15/2023 20:54" textbox37="Nguyen, Vincent" textbox38="CN" textbox39="" textbox40="D12-1300" Textbox4="2.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/11/2023 10:44" textbox37="Ocampo, Elaine" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 06:52" textbox37="Ortiz, Jenice" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/15/2023 19:27" textbox37="Phegley, Alexis" textbox38="CN" textbox39="" textbox40="D8-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 19:49" textbox37="Santacruz, Jacklyn" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:21" textbox37="Soulliere, Edward" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/22/2023 13:16" textbox37="Vo, Emily" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/28/2023 13:58" textbox37="Wade, Jennifer" textbox38="CN" textbox39="" textbox40="D12-ED" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:31" textbox37="Walker, Brian" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 10:52" textbox37="Williams, Krystal Ann" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 12:24" textbox37="Hsu, Isabel" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:33" textbox37="La, Thy-Connie" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/25/2023 09:52" textbox37="Prejido, Alexandria" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/20/2023 11:42" textbox37="Ruhlander, Aaron" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 14:05" textbox37="Sanchez, Susan" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 13:39" textbox37="Wang, Hau" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 07:42" textbox37="Munson, Jennifer" textbox38="MICN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 15:33" textbox37="Garcia-Pacheco, Lewis" textbox38="PE" textbox39="" textbox40="D8-1100" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/08/2023 18:49" textbox37="Di Gerolamo, Joseph" textbox38="STT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 13:58" textbox37="Matheson, Scott" textbox38="STT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/17/2023 22:24" textbox37="Power, Cassandra" textbox38="HUSC" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="N" textbox47="09/27/2023 17:40" textbox37="Batarseh, Nisreen" textbox38="" textbox39="" textbox40="OFF" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="10/04/2023 13:57" textbox37="Calara, Carmina" textbox38="" textbox39="" textbox40="OFF" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/03/2023 05:25" textbox37="Truong, Takara" textbox38="" textbox39="" textbox40="OFF" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 10:03" textbox37="Matejka, Kristen" textbox38="CN-PD" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 18:43" textbox37="Reyes, Dylan" textbox38="CN-PD" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:33" textbox37="Gomez, David" textbox38="MT" textbox39="(714) 924-6617" textbox40="D12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="FN" textbox47="09/27/2023 10:22" textbox37="Chang, Elliya" textbox38="SHA" textbox39="" textbox40="ERSITD" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/27/2023 18:29" textbox37="Figueroa, Angela" textbox38="SHA" textbox39="" textbox40="ORT-D" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="FN" textbox47="09/17/2023 23:49" textbox37="Gutierrez, Joshua" textbox38="SHA" textbox39="" textbox40="ERSITD" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/03/2023 18:03" textbox37="Rodriguez Cervantes, Nancy" textbox38="SHA" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="FN" textbox47="08/28/2023 08:56" textbox37="Villanueva, Alfredo" textbox38="SHA" textbox39="(714) 773-0797" textbox40="ERSITD" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/25/2023 15:36" textbox37="Ko, Peter" textbox38="SHA-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/10/2023 04:23" textbox37="Taye, Yeshi" textbox38="SHA-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:05" textbox37="David, Angel" textbox38="SPT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 07:34" textbox37="Serrano, Angela" textbox38="SPT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance" />
+																			</RowType>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PCC/CHG" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MICN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="STT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="HUSC" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-PD" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="ER-SITSAFE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SPT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance">
+																					<Profile_Collection>
+																						<Profile textbox69="PCC/CHG" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="CN" textbox75="30.50" textbox76="25.50" textbox77="5.00" />
+																						<Profile textbox69="CN-EDA" textbox75="6.00" textbox76="6.00" textbox77="0.00" />
+																						<Profile textbox69="MICN" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="PE" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="STT" textbox75="2.00" textbox76="3.00" textbox77="-1.00" />
+																						<Profile textbox69="HUSC" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																						<Profile textbox69="CN-PD" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="ER-SITSAFE" textbox75="0.00" textbox76="1.00" textbox77="-1.00" />
+																						<Profile textbox69="MT" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="SHA" textbox75="1.00" textbox76="2.50" textbox77="-1.50" />
+																						<Profile textbox69="SHA-EDA" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="SPT" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																					</Profile_Collection>
+																				</table3>
+																			</RowType>
+																		</RowType_Collection>
+																	</table1_CoveragePeriodCode_Leaf>
+																</table1_CoveragePeriodCode_Leaf_Collection>
+															</table1_CoveragePeriodSort_Branch>
+														</table1_CoveragePeriodSort_Branch_Collection>
+													</table1_LeafOrganizationUnitCode_CoverageCode>
+												</table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+											</table1_BranchOrganizationUnitCode_CoverageSort>
+											<table1_BranchOrganizationUnitCode_CoverageSort>
+												<table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+													<table1_LeafOrganizationUnitCode_CoverageCode textbox175="Coverage Period: EVE 1">
+														<table1_CoveragePeriodSort_Branch_Collection>
+															<table1_CoveragePeriodSort_Branch>
+																<table1_CoveragePeriodCode_Leaf_Collection>
+																	<table1_CoveragePeriodCode_Leaf textbox257="Department: 427231 - Emergency Dept     ">
+																		<table2 />
+																		<RowType_Collection>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/06/2023 12:50" textbox37="Cabalo, Monica" textbox38="PCC/CHG" textbox39="(714) 343-8069" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/06/2023 08:22" textbox37="De La Cruz, Cherish" textbox38="PCC/CHG" textbox39="(626) 363-4333" textbox40="AD" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 09:03" textbox37="Stapatyanon, Nancy" textbox38="PCC/CHG" textbox39="(714) 356-7952" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/22/2023 21:01" textbox37="Aguilar, Ana" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 15:30" textbox37="Alair, Jeffrey" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 16:35" textbox37="Amin, Aneri" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/23/2023 15:07" textbox37="Bolger, Sadie" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/20/2023 13:35" textbox37="Campa, Kailee" textbox38="CN" textbox39="" textbox40="D12-ED" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/16/2023 17:27" textbox37="Canas, Natalie" textbox38="CN" textbox39="" textbox40="ORT-D" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 09:06" textbox37="Cayabyab, Patrick" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:05" textbox37="Cudia, Camille" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 12:49" textbox37="Decker, Pamela" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/12/2023 08:13" textbox37="Dorzok, Nicole" textbox38="CN" textbox39="" textbox40="D8-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/31/2023 16:38" textbox37="Enos, Dylan" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 19:10" textbox37="Fong, Faith" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:41" textbox37="Hammond, McKenzie" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/09/2023 11:06" textbox37="Harrington, Lauren" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/26/2023 20:23" textbox37="Hein, Christen" textbox38="CN" textbox39="" textbox40="D12-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/05/2023 20:34" textbox37="Jaramillo, Jonathan" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/09/2023 10:35" textbox37="Kelley, Daniel" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 02:15" textbox37="Lee, Evelyn" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 16:03" textbox37="Lok, Somrennah" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 17:35" textbox37="Murcia, Megan" textbox38="CN" textbox39="" textbox40="D8-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/28/2023 14:28" textbox37="Nguyen, Hung" textbox38="CN" textbox39="" textbox40="D12-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/02/2023 15:07" textbox37="Nguyen, Johnny" textbox38="CN" textbox39="(714) 735-9757" textbox40="D12-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/15/2023 20:54" textbox37="Nguyen, Vincent" textbox38="CN" textbox39="" textbox40="D12-1300" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/11/2023 10:44" textbox37="Ocampo, Elaine" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 06:52" textbox37="Ortiz, Jenice" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/15/2023 19:27" textbox37="Phegley, Alexis" textbox38="CN" textbox39="" textbox40="D8-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 19:49" textbox37="Santacruz, Jacklyn" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 04:46" textbox37="Solomon, Madeline" textbox38="CN" textbox39="" textbox40="E12-1500" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:21" textbox37="Soulliere, Edward" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/22/2023 13:16" textbox37="Vo, Emily" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/28/2023 13:58" textbox37="Wade, Jennifer" textbox38="CN" textbox39="" textbox40="D12-ED" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:31" textbox37="Walker, Brian" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 10:52" textbox37="Williams, Krystal Ann" textbox38="CN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 12:24" textbox37="Hsu, Isabel" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:33" textbox37="La, Thy-Connie" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/25/2023 09:52" textbox37="Prejido, Alexandria" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/20/2023 11:42" textbox37="Ruhlander, Aaron" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 14:05" textbox37="Sanchez, Susan" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 13:39" textbox37="Wang, Hau" textbox38="CN-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 07:42" textbox37="Munson, Jennifer" textbox38="MICN" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 15:33" textbox37="Garcia-Pacheco, Lewis" textbox38="PE" textbox39="" textbox40="D8-1100" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/08/2023 18:49" textbox37="Di Gerolamo, Joseph" textbox38="STT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 13:58" textbox37="Matheson, Scott" textbox38="STT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/17/2023 22:24" textbox37="Power, Cassandra" textbox38="HUSC" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="N" textbox47="09/27/2023 17:40" textbox37="Batarseh, Nisreen" textbox38="" textbox39="" textbox40="OFF" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="10/04/2023 13:57" textbox37="Calara, Carmina" textbox38="" textbox39="" textbox40="OFF" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/03/2023 05:25" textbox37="Truong, Takara" textbox38="" textbox39="" textbox40="OFF" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 10:03" textbox37="Matejka, Kristen" textbox38="CN-PD" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 18:43" textbox37="Reyes, Dylan" textbox38="CN-PD" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:33" textbox37="Gomez, David" textbox38="MT" textbox39="(714) 924-6617" textbox40="D12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="FN" textbox47="09/27/2023 10:22" textbox37="Chang, Elliya" textbox38="SHA" textbox39="" textbox40="ERSITD" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/27/2023 18:29" textbox37="Figueroa, Angela" textbox38="SHA" textbox39="" textbox40="ORT-D" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="FN" textbox47="09/17/2023 23:49" textbox37="Gutierrez, Joshua" textbox38="SHA" textbox39="" textbox40="ERSITD" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/03/2023 18:03" textbox37="Rodriguez Cervantes, Nancy" textbox38="SHA" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="FN" textbox47="08/28/2023 08:56" textbox37="Villanueva, Alfredo" textbox38="SHA" textbox39="(714) 773-0797" textbox40="ERSITD" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/25/2023 15:36" textbox37="Ko, Peter" textbox38="SHA-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/10/2023 04:23" textbox37="Taye, Yeshi" textbox38="SHA-EDA" textbox39="" textbox40="D12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:05" textbox37="David, Angel" textbox38="SPT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 07:34" textbox37="Serrano, Angela" textbox38="SPT" textbox39="" textbox40="D12-0700" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance" />
+																			</RowType>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PCC/CHG" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MICN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="STT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="HUSC" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-PD" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="ER-SITSAFE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SPT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance">
+																					<Profile_Collection>
+																						<Profile textbox69="PCC/CHG" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="CN" textbox75="32.00" textbox76="28.00" textbox77="4.00" />
+																						<Profile textbox69="CN-EDA" textbox75="6.00" textbox76="6.00" textbox77="0.00" />
+																						<Profile textbox69="MICN" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="PE" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																						<Profile textbox69="STT" textbox75="2.00" textbox76="3.00" textbox77="-1.00" />
+																						<Profile textbox69="HUSC" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																						<Profile textbox69="CN-PD" textbox75="2.00" textbox76="3.00" textbox77="-1.00" />
+																						<Profile textbox69="ER-SITSAFE" textbox75="0.00" textbox76="1.00" textbox77="-1.00" />
+																						<Profile textbox69="MT" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="SHA" textbox75="1.00" textbox76="3.00" textbox77="-2.00" />
+																						<Profile textbox69="SHA-EDA" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="SPT" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																					</Profile_Collection>
+																				</table3>
+																			</RowType>
+																		</RowType_Collection>
+																	</table1_CoveragePeriodCode_Leaf>
+																</table1_CoveragePeriodCode_Leaf_Collection>
+															</table1_CoveragePeriodSort_Branch>
+														</table1_CoveragePeriodSort_Branch_Collection>
+													</table1_LeafOrganizationUnitCode_CoverageCode>
+												</table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+											</table1_BranchOrganizationUnitCode_CoverageSort>
+											<table1_BranchOrganizationUnitCode_CoverageSort>
+												<table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+													<table1_LeafOrganizationUnitCode_CoverageCode textbox175="Coverage Period: EVE 2">
+														<table1_CoveragePeriodSort_Branch_Collection>
+															<table1_CoveragePeriodSort_Branch>
+																<table1_CoveragePeriodCode_Leaf_Collection>
+																	<table1_CoveragePeriodCode_Leaf textbox257="Department: 427231 - Emergency Dept     ">
+																		<table2 />
+																		<RowType_Collection>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:18" textbox37="Xavier, Josline" textbox38="PCC/CHG" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/02/2023 00:54" textbox37="York, Richard" textbox38="PCC/CHG" textbox39="(949) 837-7099" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/02/2023 02:25" textbox37="Acosta, Fredy" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:52" textbox37="Alonzo, Megan" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:08" textbox37="Arnett, Deserhae" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:13" textbox37="Balansi, Kherwyn" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 11:05" textbox37="Bantigue, Janille" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 11:04" textbox37="Bernardino, Joie Fe Nazarene" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/24/2023 02:23" textbox37="Cruz, Mario" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 02:38" textbox37="Denev, Audrey" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 03:13" textbox37="Franco, Angelique Carisse" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 08:23" textbox37="Harmon, Luke" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/26/2023 20:23" textbox37="Hein, Christen" textbox38="CN" textbox39="" textbox40="D12-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="10/04/2023 17:02" textbox37="Ho, Joelle" textbox38="CN" textbox39="" textbox40="ORT-N" Textbox4="3.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 15:06" textbox37="Lara, Jessica" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/13/2023 23:27" textbox37="Lin, Ashley" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/26/2023 21:50" textbox37="Luna, Rhodelicia" textbox38="CN" textbox39="(909) 393-4098" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/04/2023 17:03" textbox37="Nguyen, David" textbox38="CN" textbox39="" textbox40="N8-1900" Textbox4="3.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/28/2023 14:28" textbox37="Nguyen, Hung" textbox38="CN" textbox39="" textbox40="D12-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:24" textbox37="Nguyen, Johnathan" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/02/2023 15:07" textbox37="Nguyen, Johnny" textbox38="CN" textbox39="(714) 735-9757" textbox40="D12-1100" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/15/2023 20:54" textbox37="Nguyen, Vincent" textbox38="CN" textbox39="" textbox40="D12-1300" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:18" textbox37="Orozco, Oscar" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 01:16" textbox37="Pervitsky, Helen" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="FN" textbox47="09/18/2023 10:54" textbox37="Petsas, Sarah" textbox38="CN" textbox39="" textbox40="ORT-N" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/14/2023 05:57" textbox37="Revil, Joshua" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/27/2023 15:23" textbox37="Rincon, Alyssa" textbox38="CN" textbox39="" textbox40="ORT-N" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 04:46" textbox37="Solomon, Madeline" textbox38="CN" textbox39="" textbox40="E12-1500" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 06:33" textbox37="Stepp, Sherlene" textbox38="CN" textbox39="(714) 761-1777" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/23/2023 02:15" textbox37="Tong, Tram" textbox38="CN" textbox39="" textbox40="ORT" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/22/2023 08:07" textbox37="Tran, Vivi Jennifer" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:28" textbox37="Triplett, Christopher" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/29/2023 06:46" textbox37="Valerin, Adolfo" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 05:35" textbox37="Williams, Cory" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/24/2023 19:26" textbox37="Yjares, Paul Christian" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="F" textbox47="09/17/2023 03:35" textbox37="Bower, Madison" textbox38="CN-Breaker" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/18/2023 10:27" textbox37="Chung, Yen" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/05/2023 13:09" textbox37="Gan, Kathrina" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/28/2023 14:40" textbox37="Hua, Hoang" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/20/2023 00:10" textbox37="Khimthang, Sandra" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:05" textbox37="Phan, Tammy" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 05:33" textbox37="Williams-Medrano, Cinthia" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/23/2023 10:10" textbox37="Castro, Manuel" textbox38="MICN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/16/2023 02:26" textbox37="Garza, Amariah" textbox38="PE" textbox39="" textbox40="N8-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:40" textbox37="Lujan, Edward" textbox38="STT" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/30/2023 22:53" textbox37="Majmudar, Sarang" textbox38="STT" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/05/2023 16:01" textbox37="Lopez, Liliana" textbox38="HUSC" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 01:56" textbox37="Henry, Kyleigh" textbox38="CN-PD" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:31" textbox37="Jauregui, Christian" textbox38="MT" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/15/2023 06:14" textbox37="Castillon, Raquel" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/27/2023 03:18" textbox37="Franklin, Casandra" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/18/2023 05:20" textbox37="Harris, Crystal" textbox38="SHA" textbox39="" textbox40="AVAIL-N" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/01/2023 00:18" textbox37="Krchnavy, Madison" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/06/2023 06:09" textbox37="Lipkins, Jade" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="10/08/2023 16:21" textbox37="Steinbock, Emma" textbox38="SHA" textbox39="" textbox40="ORT-N" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/02/2023 04:32" textbox37="Ramirez, Inez" textbox38="SPT" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance" />
+																			</RowType>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PCC/CHG" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-Breaker" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MICN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="STT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="HUSC" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-PD" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="ER-SITSAFE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SPT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance">
+																					<Profile_Collection>
+																						<Profile textbox69="PCC/CHG" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="CN" textbox75="28.75" textbox76="28.00" textbox77="0.75" />
+																						<Profile textbox69="CN-Breaker" textbox75="1.00" textbox76="0.00" textbox77="1.00" />
+																						<Profile textbox69="CN-EDA" textbox75="6.00" textbox76="6.00" textbox77="0.00" />
+																						<Profile textbox69="MICN" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="PE" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																						<Profile textbox69="STT" textbox75="2.00" textbox76="3.00" textbox77="-1.00" />
+																						<Profile textbox69="HUSC" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																						<Profile textbox69="CN-PD" textbox75="1.00" textbox76="3.00" textbox77="-2.00" />
+																						<Profile textbox69="ER-SITSAFE" textbox75="0.00" textbox76="1.00" textbox77="-1.00" />
+																						<Profile textbox69="MT" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="SHA" textbox75="4.00" textbox76="3.00" textbox77="1.00" />
+																						<Profile textbox69="SHA-EDA" textbox75="0.00" textbox76="2.00" textbox77="-2.00" />
+																						<Profile textbox69="SPT" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																					</Profile_Collection>
+																				</table3>
+																			</RowType>
+																		</RowType_Collection>
+																	</table1_CoveragePeriodCode_Leaf>
+																</table1_CoveragePeriodCode_Leaf_Collection>
+															</table1_CoveragePeriodSort_Branch>
+														</table1_CoveragePeriodSort_Branch_Collection>
+													</table1_LeafOrganizationUnitCode_CoverageCode>
+												</table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+											</table1_BranchOrganizationUnitCode_CoverageSort>
+											<table1_BranchOrganizationUnitCode_CoverageSort>
+												<table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+													<table1_LeafOrganizationUnitCode_CoverageCode textbox175="Coverage Period: NIGHT 1">
+														<table1_CoveragePeriodSort_Branch_Collection>
+															<table1_CoveragePeriodSort_Branch>
+																<table1_CoveragePeriodCode_Leaf_Collection>
+																	<table1_CoveragePeriodCode_Leaf textbox257="Department: 427231 - Emergency Dept     ">
+																		<table2 />
+																		<RowType_Collection>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 20:48" textbox37="Gomez, Elizabeth" textbox38="PCC/CHG" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/22/2023 09:29" textbox37="Hoffman, Tori" textbox38="PCC/CHG" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:18" textbox37="Xavier, Josline" textbox38="PCC/CHG" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/02/2023 00:54" textbox37="York, Richard" textbox38="PCC/CHG" textbox39="(949) 837-7099" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/02/2023 02:25" textbox37="Acosta, Fredy" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:52" textbox37="Alonzo, Megan" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 16:35" textbox37="Amin, Aneri" textbox38="CN" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:08" textbox37="Arnett, Deserhae" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:13" textbox37="Balansi, Kherwyn" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 11:05" textbox37="Bantigue, Janille" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 11:13" textbox37="Bantigue, Janille" textbox38="CN" textbox39="" textbox40="MTG" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/22/2023 09:43" textbox37="Bentzen, Rianna" textbox38="CN" textbox39="" textbox40="CE" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 11:04" textbox37="Bernardino, Joie Fe Nazarene" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 11:13" textbox37="Bernardino, Joie Fe Nazarene" textbox38="CN" textbox39="" textbox40="MTG" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="09/15/2023 18:38" textbox37="Calara, Carmina" textbox38="CN" textbox39="" textbox40="LOA" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/24/2023 02:23" textbox37="Cruz, Mario" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 02:38" textbox37="Denev, Audrey" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/28/2023 12:42" textbox37="Fontillas, Milagros" textbox38="CN" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 03:13" textbox37="Franco, Angelique Carisse" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 00:29" textbox37="Garcia, Christopher" textbox38="CN" textbox39="" textbox40="CE" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/22/2023 12:51" textbox37="Hammond, McKenzie" textbox38="CN" textbox39="" textbox40="CE" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/26/2023 01:50" textbox37="Hancock, Nicole" textbox38="CN" textbox39="" textbox40="CE" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 08:23" textbox37="Harmon, Luke" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="09/05/2023 15:38" textbox37="Haxby, Katherine" textbox38="CN" textbox39="" textbox40="MTG" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 00:04" textbox37="Hein, Christen" textbox38="CN" textbox39="" textbox40="MTG" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/30/2023 14:41" textbox37="Jaramillo, Jonathan" textbox38="CN" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 15:06" textbox37="Lara, Jessica" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 02:15" textbox37="Lee, Evelyn" textbox38="CN" textbox39="" textbox40="MTG" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/13/2023 23:27" textbox37="Lin, Ashley" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/21/2023 12:48" textbox37="Litos, Lula" textbox38="CN" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/23/2023 13:56" textbox37="Lomanog, Cherry Ann" textbox38="CN" textbox39="" textbox40="MTG" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/26/2023 21:50" textbox37="Luna, Rhodelicia" textbox38="CN" textbox39="(909) 393-4098" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 00:18" textbox37="Masiddo, Mars Eli" textbox38="CN" textbox39="" textbox40="MTG" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="09/04/2023 10:20" textbox37="Mattis, Nicole" textbox38="CN" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 23:00" textbox37="Mendoza, Nina" textbox38="CN" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/24/2023 09:17" textbox37="Moorehead, Amanda" textbox38="CN" textbox39="" textbox40="CE" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:24" textbox37="Nguyen, Johnathan" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 00:04" textbox37="Nguyen, Theresa" textbox38="CN" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/15/2023 20:54" textbox37="Nguyen, Vincent" textbox38="CN" textbox39="" textbox40="D12-1300" Textbox4="2.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:18" textbox37="Orozco, Oscar" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 01:16" textbox37="Pervitsky, Helen" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="FN" textbox47="09/18/2023 10:54" textbox37="Petsas, Sarah" textbox38="CN" textbox39="" textbox40="ORT-N" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/14/2023 05:57" textbox37="Revil, Joshua" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/27/2023 15:23" textbox37="Rincon, Alyssa" textbox38="CN" textbox39="" textbox40="ORT-N" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/24/2023 10:10" textbox37="Silva-Colon, Estephannia" textbox38="CN" textbox39="" textbox40="CE" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 04:46" textbox37="Solomon, Madeline" textbox38="CN" textbox39="" textbox40="E12-1500" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 08:56" textbox37="Stapatyanon, Nancy" textbox38="CN" textbox39="(714) 356-7952" textbox40="MTG" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 06:33" textbox37="Stepp, Sherlene" textbox38="CN" textbox39="(714) 761-1777" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 06:24" textbox37="Stepp, Sherlene" textbox38="CN" textbox39="(714) 761-1777" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 12:14" textbox37="Taylor, Adrienne" textbox38="CN" textbox39="" textbox40="MTG" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/23/2023 02:15" textbox37="Tong, Tram" textbox38="CN" textbox39="" textbox40="ORT" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/22/2023 08:07" textbox37="Tran, Vivi Jennifer" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="09/06/2023 16:32" textbox37="Tran, Vivi Jennifer" textbox38="CN" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:28" textbox37="Triplett, Christopher" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/23/2023 08:11" textbox37="Truong, Takara" textbox38="CN" textbox39="" textbox40="CE" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="09/09/2023 20:21" textbox37="Turner, Matthew" textbox38="CN" textbox39="" textbox40="MTG" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/29/2023 06:46" textbox37="Valerin, Adolfo" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/26/2023 06:56" textbox37="Valerin, Adolfo" textbox38="CN" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 05:35" textbox37="Williams, Cory" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/20/2023 06:45" textbox37="Yang, Jackie" textbox38="CN" textbox39="" textbox40="CE" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/24/2023 19:26" textbox37="Yjares, Paul Christian" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="F" textbox47="09/17/2023 03:35" textbox37="Bower, Madison" textbox38="CN-Breaker" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/18/2023 10:27" textbox37="Chung, Yen" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/05/2023 13:09" textbox37="Gan, Kathrina" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/28/2023 14:40" textbox37="Hua, Hoang" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/20/2023 00:10" textbox37="Khimthang, Sandra" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/30/2023 22:06" textbox37="Pham, Nguyet" textbox38="CN-EDA" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:05" textbox37="Phan, Tammy" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 05:33" textbox37="Williams-Medrano, Cinthia" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/23/2023 10:10" textbox37="Castro, Manuel" textbox38="MICN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/16/2023 02:26" textbox37="Garza, Amariah" textbox38="PE" textbox39="" textbox40="N8-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:40" textbox37="Lujan, Edward" textbox38="STT" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/30/2023 22:53" textbox37="Majmudar, Sarang" textbox38="STT" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/21/2023 13:58" textbox37="Matheson, Scott" textbox38="STT" textbox39="" textbox40="RO" Textbox4="0.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="09/09/2023 08:02" textbox37="Tengco, Andre" textbox38="STT" textbox39="" textbox40="RO" Textbox4="0.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/05/2023 16:01" textbox37="Lopez, Liliana" textbox38="HUSC" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 01:56" textbox37="Henry, Kyleigh" textbox38="CN-PD" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="09/01/2023 06:54" textbox37="Monjaras De La O, Leonidas" textbox38="CN-PD" textbox39="" textbox40="RO" Textbox4="0.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:31" textbox37="Jauregui, Christian" textbox38="MT" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="08/31/2023 10:49" textbox37="Stout, Melinda" textbox38="MT" textbox39="" textbox40="RO" Textbox4="0.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/15/2023 06:14" textbox37="Castillon, Raquel" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/27/2023 03:18" textbox37="Franklin, Casandra" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/18/2023 05:20" textbox37="Harris, Crystal" textbox38="SHA" textbox39="" textbox40="AVAIL-N" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/01/2023 00:18" textbox37="Krchnavy, Madison" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/06/2023 06:09" textbox37="Lipkins, Jade" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="" textbox36="N" textbox47="10/03/2023 02:52" textbox37="Smith, Naquiesha" textbox38="SHA" textbox39="" textbox40="LOA" Textbox4="0.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="10/08/2023 16:21" textbox37="Steinbock, Emma" textbox38="SHA" textbox39="" textbox40="ORT-N" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/02/2023 04:32" textbox37="Ramirez, Inez" textbox38="SPT" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance" />
+																			</RowType>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PCC/CHG" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-Breaker" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MICN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="STT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="HUSC" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-PD" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="ER-SITSAFE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SPT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance">
+																					<Profile_Collection>
+																						<Profile textbox69="PCC/CHG" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="CN" textbox75="24.75" textbox76="25.50" textbox77="-0.75" />
+																						<Profile textbox69="CN-Breaker" textbox75="1.00" textbox76="0.00" textbox77="1.00" />
+																						<Profile textbox69="CN-EDA" textbox75="6.00" textbox76="6.00" textbox77="0.00" />
+																						<Profile textbox69="MICN" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="PE" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																						<Profile textbox69="STT" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="HUSC" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="CN-PD" textbox75="1.00" textbox76="3.00" textbox77="-2.00" />
+																						<Profile textbox69="ER-SITSAFE" textbox75="0.00" textbox76="1.00" textbox77="-1.00" />
+																						<Profile textbox69="MT" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="SHA" textbox75="4.00" textbox76="2.50" textbox77="1.50" />
+																						<Profile textbox69="SHA-EDA" textbox75="0.00" textbox76="2.00" textbox77="-2.00" />
+																						<Profile textbox69="SPT" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																					</Profile_Collection>
+																				</table3>
+																			</RowType>
+																		</RowType_Collection>
+																	</table1_CoveragePeriodCode_Leaf>
+																</table1_CoveragePeriodCode_Leaf_Collection>
+															</table1_CoveragePeriodSort_Branch>
+														</table1_CoveragePeriodSort_Branch_Collection>
+													</table1_LeafOrganizationUnitCode_CoverageCode>
+												</table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+											</table1_BranchOrganizationUnitCode_CoverageSort>
+											<table1_BranchOrganizationUnitCode_CoverageSort>
+												<table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+													<table1_LeafOrganizationUnitCode_CoverageCode textbox175="Coverage Period: NIGHT 2">
+														<table1_CoveragePeriodSort_Branch_Collection>
+															<table1_CoveragePeriodSort_Branch>
+																<table1_CoveragePeriodCode_Leaf_Collection>
+																	<table1_CoveragePeriodCode_Leaf textbox257="Department: 427231 - Emergency Dept     ">
+																		<table2 />
+																		<RowType_Collection>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:18" textbox37="Xavier, Josline" textbox38="PCC/CHG" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/02/2023 00:54" textbox37="York, Richard" textbox38="PCC/CHG" textbox39="(949) 837-7099" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/02/2023 02:25" textbox37="Acosta, Fredy" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:52" textbox37="Alonzo, Megan" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:08" textbox37="Arnett, Deserhae" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:13" textbox37="Balansi, Kherwyn" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 11:05" textbox37="Bantigue, Janille" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 11:04" textbox37="Bernardino, Joie Fe Nazarene" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/24/2023 02:23" textbox37="Cruz, Mario" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 02:38" textbox37="Denev, Audrey" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 03:13" textbox37="Franco, Angelique Carisse" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 08:23" textbox37="Harmon, Luke" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 15:06" textbox37="Lara, Jessica" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/13/2023 23:27" textbox37="Lin, Ashley" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/26/2023 21:50" textbox37="Luna, Rhodelicia" textbox38="CN" textbox39="(909) 393-4098" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:24" textbox37="Nguyen, Johnathan" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:18" textbox37="Orozco, Oscar" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 01:16" textbox37="Pervitsky, Helen" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="FN" textbox47="09/18/2023 10:54" textbox37="Petsas, Sarah" textbox38="CN" textbox39="" textbox40="ORT-N" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/14/2023 05:57" textbox37="Revil, Joshua" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 06:33" textbox37="Stepp, Sherlene" textbox38="CN" textbox39="(714) 761-1777" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/23/2023 02:15" textbox37="Tong, Tram" textbox38="CN" textbox39="" textbox40="ORT" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/22/2023 08:07" textbox37="Tran, Vivi Jennifer" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:28" textbox37="Triplett, Christopher" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/29/2023 06:46" textbox37="Valerin, Adolfo" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 05:35" textbox37="Williams, Cory" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/24/2023 19:26" textbox37="Yjares, Paul Christian" textbox38="CN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="F" textbox47="09/17/2023 03:35" textbox37="Bower, Madison" textbox38="CN-Breaker" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/18/2023 10:27" textbox37="Chung, Yen" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="10/05/2023 13:09" textbox37="Gan, Kathrina" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/28/2023 14:40" textbox37="Hua, Hoang" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="F" textbox47="08/20/2023 00:10" textbox37="Khimthang, Sandra" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:05" textbox37="Phan, Tammy" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 05:33" textbox37="Williams-Medrano, Cinthia" textbox38="CN-EDA" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/23/2023 10:10" textbox37="Castro, Manuel" textbox38="MICN" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 07:40" textbox37="Lujan, Edward" textbox38="STT" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="09/30/2023 22:53" textbox37="Majmudar, Sarang" textbox38="STT" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/05/2023 16:01" textbox37="Lopez, Liliana" textbox38="HUSC" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/21/2023 01:56" textbox37="Henry, Kyleigh" textbox38="CN-PD" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="08/20/2023 00:31" textbox37="Jauregui, Christian" textbox38="MT" textbox39="" textbox40="N12-EDA" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/15/2023 06:14" textbox37="Castillon, Raquel" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="08/27/2023 03:18" textbox37="Franklin, Casandra" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="09/18/2023 05:20" textbox37="Harris, Crystal" textbox38="SHA" textbox39="" textbox40="AVAIL-N" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/01/2023 00:18" textbox37="Krchnavy, Madison" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="" textbox47="10/06/2023 06:09" textbox37="Lipkins, Jade" textbox38="SHA" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																											<Detail textbox10="*" textbox36="N" textbox47="10/08/2023 16:21" textbox37="Steinbock, Emma" textbox38="SHA" textbox39="" textbox40="ORT-N" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="*" textbox36="" textbox47="09/02/2023 04:32" textbox37="Ramirez, Inez" textbox38="SPT" textbox39="" textbox40="N12-1900" Textbox4="4.00" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance" />
+																			</RowType>
+																			<RowType>
+																				<table1_CalendarDate_Collection>
+																					<table1_CalendarDate>
+																						<table1_WorkedOrganizationUnit_Collection>
+																							<table1_WorkedOrganizationUnit>
+																								<table1_ProfileCode_Collection>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PCC/CHG" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-Breaker" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MICN" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="PE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="STT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="HUSC" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="CN-PD" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="ER-SITSAFE" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="MT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SHA-EDA" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																									<table1_ProfileCode>
+																										<Detail_Collection>
+																											<Detail textbox10="" textbox36="" textbox47="" textbox38="SPT" />
+																										</Detail_Collection>
+																									</table1_ProfileCode>
+																								</table1_ProfileCode_Collection>
+																							</table1_WorkedOrganizationUnit>
+																						</table1_WorkedOrganizationUnit_Collection>
+																					</table1_CalendarDate>
+																				</table1_CalendarDate_Collection>
+																				<table3 textbox65="Coverage" textbox66="Need" textbox67="Variance">
+																					<Profile_Collection>
+																						<Profile textbox69="PCC/CHG" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="CN" textbox75="23.00" textbox76="23.00" textbox77="0.00" />
+																						<Profile textbox69="CN-Breaker" textbox75="1.00" textbox76="0.00" textbox77="1.00" />
+																						<Profile textbox69="CN-EDA" textbox75="6.00" textbox76="6.00" textbox77="0.00" />
+																						<Profile textbox69="MICN" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="PE" textbox75="0.00" textbox76="1.00" textbox77="-1.00" />
+																						<Profile textbox69="STT" textbox75="2.00" textbox76="2.00" textbox77="0.00" />
+																						<Profile textbox69="HUSC" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="CN-PD" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																						<Profile textbox69="ER-SITSAFE" textbox75="0.00" textbox76="1.00" textbox77="-1.00" />
+																						<Profile textbox69="MT" textbox75="1.00" textbox76="1.00" textbox77="0.00" />
+																						<Profile textbox69="SHA" textbox75="4.00" textbox76="2.00" textbox77="2.00" />
+																						<Profile textbox69="SHA-EDA" textbox75="0.00" textbox76="2.00" textbox77="-2.00" />
+																						<Profile textbox69="SPT" textbox75="1.00" textbox76="2.00" textbox77="-1.00" />
+																					</Profile_Collection>
+																				</table3>
+																			</RowType>
+																		</RowType_Collection>
+																	</table1_CoveragePeriodCode_Leaf>
+																</table1_CoveragePeriodCode_Leaf_Collection>
+															</table1_CoveragePeriodSort_Branch>
+														</table1_CoveragePeriodSort_Branch_Collection>
+													</table1_LeafOrganizationUnitCode_CoverageCode>
+												</table1_LeafOrganizationUnitCode_CoverageCode_Collection>
+											</table1_BranchOrganizationUnitCode_CoverageSort>
+										</table1_BranchOrganizationUnitCode_CoverageSort_Collection>
+									</table1_TrunkOrganizationUnitCode>
+								</table1_TrunkOrganizationUnitCode_Collection>
+							</schedule_group_order>
+						</schedule_group_order_Collection>
+					</table1_ReportDate>
+				</table1_ReportDate_Collection>
+			</table1>
+		</Report>
+	</subreport1>
+</Report>
