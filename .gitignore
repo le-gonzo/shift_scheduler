@@ -1,6 +1,7 @@
 #cofig files
 config.py
 xml_parser_test.py
+uploads/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -28,7 +28,7 @@ def execute_query(query_name, params=None):
         cursor.execute(sql, params)
         
         # If the SQL command is a SELECT statement, fetch the results. NOTE: SQL is case insensitive so use .lower method.
-        if "select" in sql.lower:
+        if "select" in sql.lower():
             result = cursor.fetchall()
         else:
             result = None
