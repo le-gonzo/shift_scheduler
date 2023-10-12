@@ -1,0 +1,13 @@
+# config.py
+DB_CONFIG = {
+    'dbname': 'employee_shift_db',
+    'user': 'USERNAME', #replace with a valid user
+    'password': 'PASSWORD', #replace with a valid password
+    'host': 'localhost',
+    'port': '5432'  # default port for PostgreSQL, change if yours is different
+}
+
+#test two
+
+SQLALCHEMY_DATABASE_URI = 'postgresql://data_user:yourpassword@localhost/yourdatabase'
+SQLALCHEMY_TRACK_MODIFICATIONS = False

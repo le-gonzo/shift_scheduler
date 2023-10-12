@@ -1,5 +1,5 @@
 #cofig files
-config.py
+app/config.py
 xml_parser_test.py
 uploads/
 
