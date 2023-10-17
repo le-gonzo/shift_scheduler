@@ -17,7 +17,7 @@ migrate = Migrate()
 
 def create_app():
     # App Configurations
-    app = Flask(__name__, template_folder='./templates')
+    app = Flask(__name__) #, template_folder='./templates'
     app.config.from_object('config')  # Load all configurations from config.py
     
     # Extensions Initialization
@@ -37,8 +37,8 @@ def create_app():
     
     # Blueprints
     from app.blueprints.main import main_bp
-    from app.blueprints.auth import auth_bp
     app.register_blueprint(main_bp)
+    from app.blueprints.auth import auth_bp
     app.register_blueprint(auth_bp)
 
     # User Manager Configuration

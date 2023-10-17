@@ -5,9 +5,8 @@ from app.forms import RegistrationForm, LoginForm
 from app.models.user import User
 from werkzeug.security import generate_password_hash, check_password_hash
 from app import db
+from . import auth_bp
 
-
-auth_bp = Blueprint('auth', __name__)
 
 @auth_bp.route("/login", methods=['GET', 'POST'])
 def login():
