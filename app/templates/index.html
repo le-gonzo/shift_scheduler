@@ -1,0 +1,31 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Presentation {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Hero Section -->
+<section class="section section-header text-dark pb-md-8">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 text-center mb-5 mb-md-7">
+                <h1 class="display-2 font-weight-bolder mb-4">UCI Health<br><strong>ED Dashboard</strong></h1>
+                <p class="lead mb-4 mb-lg-5">
+                    A one-stop digital hub where efficiency meets inovation. Efficient, secure, and optimized for UCI Health's Emergency Department.
+                </p>
+                <a href="./login" class="btn btn-dark">Login</a>
+            </div>
+            <div class="col-12 col-md-10 justify-content-center">
+                <img class="d-none d-md-inline-block" src="/static/assets/img/illustrations/scene.svg" alt="UCI Health Shift Scheduler Illustration">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

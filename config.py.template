@@ -1,0 +1,41 @@
+# config_template.py
+
+# ==========================
+# DATABASE CONFIGURATIONS
+# ==========================
+DB_CONFIG = {
+    'dbname': 'YOUR_DATABASE_NAME',
+    'user': 'YOUR_DB_USER',
+    'password': 'YOUR_DB_PASSWORD',
+    'host': 'YOUR_DB_HOST',
+    'port': 'YOUR_DB_PORT'
+}
+SQLALCHEMY_DATABASE_URI = f"postgresql://{DB_CONFIG['user']}:{DB_CONFIG['password']}@{DB_CONFIG['host']}:{DB_CONFIG['port']}/{DB_CONFIG['dbname']}"
+SQLALCHEMY_TRACK_MODIFICATIONS = False  # Suppress SQLALCHEMY_TRACK_MODIFICATIONS warning
+
+# ==========================
+# GENERAL CONFIGURATIONS
+# ==========================
+SECRET_KEY = 'YOUR_SECRET_KEY'
+UPLOAD_FOLDER = 'YOUR_UPLOAD_FOLDER_PATH'
+ALLOWED_EXTENSIONS = {'xml'}  # You can expand this if needed
+
+# ==========================
+# MAIL CONFIGURATIONS
+# ==========================
+MAIL_SERVER = 'YOUR_MAIL_SERVER'
+MAIL_PORT = YOUR_MAIL_PORT  # Use 465 for SSL; replace YOUR_MAIL_PORT with actual port number without quotes
+MAIL_USE_TLS = True         # Use MAIL_USE_SSL = True for port 465 if needed
+MAIL_USERNAME = 'YOUR_MAIL_USERNAME'
+MAIL_PASSWORD = 'YOUR_MAIL_PASSWORD'
+
+# ==========================
+# USER MANAGEMENT & AUTH
+# ==========================
+USER_APP_NAME = 'YOUR_APP_NAME'  # Shown in email templates and page footers
+USER_ENABLE_EMAIL = True
+USER_ENABLE_USERNAME = False
+USER_EMAIL_SENDER_NAME = USER_APP_NAME
+USER_EMAIL_SENDER_EMAIL = "YOUR_SENDER_EMAIL"
+CSRF_ENABLED = True
+
