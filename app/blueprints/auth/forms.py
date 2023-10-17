@@ -1,18 +1,7 @@
-#shift_scheduler/app/templates/.__init__.py
-#from flask import Flask
-#from flask_sqlalchemy import SQLAlchemy
-#from flask_migrate import Migrate
-#from .views import app
-
-#db = SQLAlchemy(app)
-#migrate = Migrate(app, db)
-
-
+#shift_scheduler/app/blueprints/auth/forms.py
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import DataRequired, Email, EqualTo
-
-
 
 class RegistrationForm(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])

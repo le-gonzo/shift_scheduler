@@ -1,3 +1,11 @@
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for category, message in messages %}
+            <div class="alert alert-{{ category }}">{{ message }}</div>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+
 {% extends "layouts/base-fullscreen.html" %}
 
 {% block title %} Sign IN  {% endblock %} 
@@ -19,43 +27,49 @@
                             <div class="col-12 col-lg-7 px-3 py-5 px-sm-5 px-md-6">
                                 <div class="text-center text-md-center mb-4 mt-md-0">
                                     <h1 class="mb-0 h3">
-                                        <a href="https://appseed.us/jinja-template?ref=demo" target="_blank">Jinja</a> Swipe - Login</h1>
+                                        <a href="https://appseed.us/jinja-template?ref=demo" target="_blank">UCI Health<br></a> ED Dashboard - Login</h1>
                                 </div>
                                 <form action="{{ url_for('auth.login') }}" method="post">
                                     {{ form.hidden_tag() }}
                                     
                                     <!-- Email Field -->
                                     <div class="form-group mb-4">
-                                        <label for="exampleInputEmailCard1">Your Email</label>
+                                        <label for="exampleInputEmailCard1">Email</label>
                                         <div class="input-group">
                                             <span class="input-group-text" id="basic-addon1"><span class="fas fa-envelope"></span></span>
-                                            {{ form.email(class="form-control", placeholder="Email", id="exampleInputEmailCard1") }}
+                                            {{ form.email(class="form-control", placeholder="panteater@hs.uci.edu", id="exampleInputEmailCard1") }}
                                         </div>  
                                     </div>
                                     
                                     <!-- Password Field -->
                                     <div class="form-group mb-4">
-                                        <label for="exampleInputPasswordCard1">Your Password</label>
+                                        <label for="exampleInputPasswordCard1">Password</label>
                                         <div class="input-group">
                                             <span class="input-group-text" id="basic-addon2"><span class="fas fa-unlock-alt"></span></span>
                                             {{ form.password(class="form-control", placeholder="Password", id="exampleInputPasswordCard1") }}
                                         </div>  
                                     </div>
                                     
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="submit" class="btn btn-primary">Login</button>
                                 </form>
                                 <div class="d-flex justify-content-center align-items-center mt-4">
                                     <span class="font-weight-normal">
-                                        Don't have an account?
-                                        <a href="/sign-up.html" class="font-weight-bold">Register</a>
+                                        Don't Have an Account?
+                                        <a href="{{ url_for('auth.register') }}" class="font-weight-bold"><br>Crete a New Account</a>
+                                    </span>
+                                    <span class="font-weight-normal">
+                                        Forgot Password?
+                                        <a href="{{ url_for('auth.register') }}" class="font-weight-bold"><br>Recover Password</a>
                                     </span>
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center mt-4">
                                     <p>
-                                        &copy; <a target="_blank" href="https://themesberg.com/?ref=appseed">Themesberg</a> 
-                                        - Coded by <a target="_blank" href="https://appseed.us/?ref=demo">AppSeed</a>.
+                                        <a target="_blank" href="https://themesberg.com/?ref=appseed">Have Questions?</a> 
+                                        <br>Reach Out for Direct Support: <a target="_blank" href="mailto:luis.gonzalez@uci.edu?subject=ED%20Digital%20Dashboard">luis.gonzalez@uci.edu</a>.
                                     </p>
                                 </div>
+
+
                             </div>
                         </div>
                     </div>

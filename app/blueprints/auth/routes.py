@@ -1,19 +1,27 @@
 #shift_scheduler/app/blueprints/auth/routes.py
-from flask import Blueprint, render_template, redirect, url_for
+from flask import Blueprint, render_template, redirect, url_for, flash
 from flask_login import login_user
-from app.forms import RegistrationForm, LoginForm
 from app.models.user import User
 from werkzeug.security import generate_password_hash, check_password_hash
 from app import db
 from . import auth_bp
-
+from .forms import RegistrationForm, LoginForm
 
 @auth_bp.route("/login", methods=['GET', 'POST'])
 def login():
-    form = LoginForm()
+    form = LoginForm()    
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
-        if user and check_password_hash(user.password, form.password.data):
+        # Check that email exists
+        if not user:
+            flash('No account exists with that email. Register first.', 'danger')
+            return redirect(url_for('auth.register'))
+        # Check that password is correct
+        if user and not user.check_password(form.password.data):  # Using the check_password method here
+            flash('Password is incorrect. Please try again.', 'danger')
+            return render_template('login.html', form=form)
+        # Login user
+        if user and user.check_password(form.password.data):  # Using the check_password method here
             login_user(user)
             return redirect(url_for('main.home'))
     return render_template('login.html', form=form)
@@ -22,9 +30,14 @@ def login():
 def register():
     form = RegistrationForm()
     if form.validate_on_submit():
-        # Hash the user's password
-        hashed_password = generate_password_hash(form.password.data)
-        user = User(email=form.email.data, password=hashed_password)
+        existing_user = User.query.filter_by(email=form.email.data).first()
+        
+        if existing_user:
+            flash('Email already exists. Please log in instead.', 'info')
+            return redirect(url_for('auth.login'))
+
+        user = User(email=form.email.data)
+        user.set_password(form.password.data)  # Using the set_password method here
         db.session.add(user)
         db.session.commit()
         return redirect(url_for('auth.login'))
