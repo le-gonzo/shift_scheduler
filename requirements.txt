@@ -9,6 +9,8 @@ charset-normalizer==3.3.0
 click==8.1.7
 colorama==0.4.6
 cryptography==41.0.4
+dnspython==2.4.2
+email-validator==2.0.0.post2
 executing==2.0.0
 Flask==2.0.1
 Flask-BabelEx==0.9.4

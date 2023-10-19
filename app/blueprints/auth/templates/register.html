@@ -3,7 +3,13 @@
 {% block title %} Sign UP  {% endblock %} 
 
 <!-- Specific Page CSS goes HERE  -->
-{% block stylesheets %}{% endblock stylesheets %}
+{% block stylesheets %}
+<style>
+    #passwordWarning {
+        display: none;
+    }
+</style>
+{% endblock stylesheets %}
 
 {% block content %}
 
@@ -21,54 +27,50 @@
                                     <h1 class="mb-0 h3">
                                         <a href="https://appseed.us/jinja-template?ref=demo" target="_blank">UCI Health<br></a> ED Dashboard - Register</h1>
                                 </div>
-                                <form action="#">
-                                    <!-- Form -->
+                                <form action="{{ url_for('auth.register') }}" method="post">
+                                    {{ form.hidden_tag() }}
                                     <div class="form-group mb-4">
-                                        <label for="exampleInputEmailCard3">Your Email</label>
+                                        <label for="email">Your UCI Email</label>
                                         <div class="input-group">
-                                            <span class="input-group-text" id="basic-addon3"><span class="fas fa-envelope"></span></span>
-                                            <input type="email" class="form-control" placeholder="example@company.com" id="exampleInputEmailCard3">
+                                            <span class="input-group-text"><span class="fas fa-envelope"></span></span>
+                                            {{ form.email(class="form-control", placeholder="panteater@hs.uci.edu") }}
                                         </div>  
                                     </div>
-                                    <!-- End of Form -->
-                                    <div class="form-group">
-                                        <!-- Form -->
-                                        <div class="form-group mb-4">
-                                            <label for="exampleInputPasswordCard4">Your Password</label>
-                                            <div class="input-group">
-                                                <span class="input-group-text" id="basic-addon4"><span class="fas fa-unlock-alt"></span></span>
-                                                <input type="password" placeholder="Password" class="form-control" id="exampleInputPasswordCard4">
-                                            </div>  
-                                        </div>
-                                        <!-- End of Form -->
-                                        <!-- Form -->
-                                        <div class="form-group mb-4">
-                                            <label for="exampleInputPasswordCard4">Confirm Password</label>
-                                            <div class="input-group">
-                                                <span class="input-group-text" id="basic-addon5"><span class="fas fa-unlock-alt"></span></span>
-                                                <input type="password" placeholder="Confirm Password" class="form-control" id="exampleInputPasswordCard5">
-                                            </div>  
-                                        </div>
-                                        <!-- End of Form -->
-                                        <div class="form-check mb-4">
-                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
-                                            <label class="form-check-label" for="defaultCheck6">
-                                                I agree to the <a href="#" class="text-primary font-weight-bold">terms and conditions</a>
-                                            </label>
-                                        </div>
+                                    
+                                    <div class="form-group mb-4">
+                                        <label for="password">Your Password</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                                            {{ form.password(id="passwordInput", class="form-control", placeholder="Password") }}
+                                        </div> 
+                                    
+                                        <!-- Insert the warning here with the added ID -->
+                                        <div id="passwordWarning" class="alert alert-warning mt-2" role="alert">
+                                            <strong>Important:</strong> For security reasons, please use a unique password not associated with your work email or any other accounts. This application is not yet integrated with our enterprise SSO.
+                                        </div> 
                                     </div>
-                                    <button type="submit" class="btn btn-block btn-primary">Sign in</button>
+
+                                    <div class="form-group mb-4">
+                                        <label for="confirm_password">Confirm Password</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                                            {{ form.confirm_password(class="form-control", placeholder="Confirm Password") }}
+                                        </div>  
+                                    </div>
+                                        
+                                    
+                                    <button type="submit" class="btn btn-block btn-primary">Register</button>
+
                                 </form>
                                 <div class="d-flex justify-content-center align-items-center mt-4">
                                     <span class="font-weight-normal">
                                         Have an account?
-                                        <a href="/sign-in.html" class="font-weight-bold">Login</a>
+                                        <a href="{{ url_for('auth.login') }}"><strong>Login</strong></a>
                                     </span>
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center mt-4">
                                     <p>
-                                        &copy; <a target="_blank" href="https://themesberg.com/?ref=appseed">Themesberg</a> 
-                                        - Coded by <a target="_blank" href="https://appseed.us/?ref=demo">AppSeed</a>.
+                                        The Regents of the University of California &copy2023. All rights reserved.
                                     </p>
                                 </div>
                             </div>
@@ -82,4 +84,14 @@
 {% endblock content %}
 
 <!-- Specific Page JS goes HERE  -->
-{% block javascripts %}{% endblock javascripts %}
+{% block javascripts %}
+<script>
+    document.querySelector('#passwordInput').addEventListener('focus', function() {
+        document.querySelector('#passwordWarning').style.display = 'block';
+    });
+
+    document.querySelector('#passwordInput').addEventListener('blur', function() {
+        document.querySelector('#passwordWarning').style.display = 'none';
+    });
+</script>
+{% endblock javascripts %}
