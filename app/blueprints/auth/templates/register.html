@@ -29,39 +29,51 @@
                                 </div>
                                 <form action="{{ url_for('auth.register') }}" method="post">
                                     {{ form.hidden_tag() }}
+
+                                    <!-- Email Field -->
                                     <div class="form-group mb-4">
                                         <label for="email">Your UCI Email</label>
                                         <div class="input-group">
                                             <span class="input-group-text"><span class="fas fa-envelope"></span></span>
                                             {{ form.email(class="form-control", placeholder="panteater@hs.uci.edu") }}
-                                        </div>  
+                                        </div>
+                                        {% for error in form.email.errors %}
+                                            <span class="text-danger">{{ error }}</span>
+                                        {% endfor %}
                                     </div>
-                                    
+
+                                    <!-- Password Field -->
                                     <div class="form-group mb-4">
                                         <label for="password">Your Password</label>
                                         <div class="input-group">
                                             <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
                                             {{ form.password(id="passwordInput", class="form-control", placeholder="Password") }}
-                                        </div> 
-                                    
-                                        <!-- Insert the warning here with the added ID -->
+                                        </div>
+                                        {% for error in form.password.errors %}
+                                            <span class="text-danger">{{ error }}</span>
+                                        {% endfor %}
+                                        <!-- Password Warning -->
                                         <div id="passwordWarning" class="alert alert-warning mt-2" role="alert">
                                             <strong>Important:</strong> For security reasons, please use a unique password not associated with your work email or any other accounts. This application is not yet integrated with our enterprise SSO.
-                                        </div> 
+                                        </div>
                                     </div>
 
+                                    <!-- Confirm Password Field -->
                                     <div class="form-group mb-4">
                                         <label for="confirm_password">Confirm Password</label>
                                         <div class="input-group">
                                             <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
                                             {{ form.confirm_password(class="form-control", placeholder="Confirm Password") }}
-                                        </div>  
+                                        </div>
+                                        {% for error in form.confirm_password.errors %}
+                                            <span class="text-danger">{{ error }}</span>
+                                        {% endfor %}
                                     </div>
-                                        
-                                    
-                                    <button type="submit" class="btn btn-block btn-primary">Register</button>
 
+                                    <button type="submit" class="btn btn-block btn-primary">Register</button>
                                 </form>
+
+                                <!-- Links Below Form -->
                                 <div class="d-flex justify-content-center align-items-center mt-4">
                                     <span class="font-weight-normal">
                                         Have an account?

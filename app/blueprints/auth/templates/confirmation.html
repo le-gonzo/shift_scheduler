@@ -1,0 +1,58 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %} Confirm Registration {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}
+
+{% endblock stylesheets %}
+
+{% block content %}
+
+    <section class="min-vh-100 d-flex align-items-center bg-soft">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="signin-inner mt-3 mt-lg-0 bg-white shadow border rounded border-light w-100">
+                        <div class="row gx-0 align-items-center justify-content-between">
+                            <div class="col-12 col-lg-5 d-none d-lg-block rounded-left bg-secondary">
+                                <img src="/static/assets/img/illustrations/login.svg" alt="login image">
+                            </div>
+                            <div class="col-12 col-lg-7 px-3 py-5 px-sm-5 px-md-6">
+                                <div class="text-center text-md-center mb-4 mt-md-0">
+                                    <h1 class="mb-0 h3">
+                                        <a href="https://appseed.us/jinja-template?ref=demo" target="_blank">UCI Health<br></a> ED Dashboard - Confirmation</h1>
+                                </div>
+                                <div class="alert alert-success">
+                                    Your account was created successfully! 
+                                </div>
+                                <p>
+                                    Please check <strong>{{ user.email }}</strong> for a confirmation link. Click the link within the next hour to complete your registration. If you do not confirm within an hour, your registration will expire.
+                                </p>
+
+                                <!-- Links Below Message -->
+                                <div class="d-flex justify-content-center align-items-center mt-4">
+                                    <span class="font-weight-normal">
+                                        Return to 
+                                        <a href="{{ url_for('auth.login') }}"><strong>Login</strong></a>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center mt-4">
+                                    <p>
+                                        The Regents of the University of California &copy2023. All rights reserved.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<!-- No specific scripts required for this page. -->
+{% endblock javascripts %}

@@ -1,0 +1,12 @@
+Welcome to the ED Dashboard!
+
+Thank you for registering with ED Dashboard. Before we get started, we need to verify your email address.
+
+Please click the link below to confirm your email:
+{{ confirm_email_link }}
+
+If you didn’t ask to change your email, you can safely ignore this email.
+
+Thank you,
+Luis
+

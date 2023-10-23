@@ -1,5 +1,11 @@
-#shift_scheduler/app/__init__.py
-# 1. Imports
+# shift_scheduler/app/__init__.py
+
+# 1. Standard Library Imports
+import os
+import logging
+from logging.handlers import RotatingFileHandler
+
+# 2. Third-party Library Imports
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
@@ -8,17 +14,20 @@ from flask_wtf.csrf import CSRFProtect
 from flask_migrate import Migrate
 from flask_user import UserManager
 
-# 2. Extensions Instances
+
+# 3. Extensions Instances
 db = SQLAlchemy()
 login_manager = LoginManager()
 mail = Mail()
 csrf = CSRFProtect()
 migrate = Migrate()
 
+
 def create_app():
     # App Configurations
     app = Flask(__name__) #, template_folder='./templates'
     app.config.from_object('config')  # Load all configurations from config.py
+    from app.models.user import User  # Directly import User
     
     # Extensions Initialization
     db.init_app(app)
@@ -26,6 +35,12 @@ def create_app():
     mail.init_app(app)
     csrf.init_app(app)
     migrate.init_app(app, db)
+
+    # Instantiate UserManager; even though it's not directly accessed here,
+    # this setup initializes the UserManager with the app and db which is 
+    # required for its functionality in other parts of the application
+    user_manager = UserManager(app, db, User)
+
     
     login_manager.login_view = "auth.login"
     
@@ -40,10 +55,20 @@ def create_app():
     app.register_blueprint(main_bp)
     from app.blueprints.auth import auth_bp
     app.register_blueprint(auth_bp)
+    
+    # Logging setup
+    if not app.debug:
+        # Ensure logs directory exists
+        if not os.path.exists('logs'):
+            os.mkdir('logs')
 
-    # User Manager Configuration
-    # UserManager is instantiated for its side effects (setup routes and other configurations)
-    from app.models.user import User  # Directly import User
-    user_manager = UserManager(app, db, User)
+        file_handler = RotatingFileHandler('logs/app.log', maxBytes=1024 * 1024 * 10, backupCount=10)
+        file_handler.setFormatter(logging.Formatter(
+            '%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'))
+        file_handler.setLevel(logging.INFO)
+        
+        app.logger.addHandler(file_handler)
+        app.logger.setLevel(logging.INFO)
+        app.logger.info('Shift Scheduler startup')
     
     return app

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>New Account Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            background-color: #fff;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to ED Dashboard!</h2>
+        <p>Thank you for registering with ED Dashboard. Before we get started, you need to verify your email address.</p>
+        <p>Please click the link below to confirm your email:</p>
+        <a href="{{ confirm_email_link }}" class="button">Confirm Email</a>
+        <p><strong>Note:</strong> The confirmation link will expire in one hour. If it expires, you'll need to request a new confirmation email.</p>
+        <p>If you didn’t request to register an account, you can safely ignore this email.</p>
+    </div>
+</body>
+</html>
