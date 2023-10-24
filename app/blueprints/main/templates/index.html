@@ -1,9 +1,22 @@
+
+
 {% extends "layouts/base.html" %}
 
-{% block title %} Presentation {% endblock %} 
+{% block title %} Welcome {% endblock %} 
 
 <!-- Specific Page CSS goes HERE  -->
-{% block stylesheets %}{% endblock stylesheets %}
+{% block stylesheets %}
+<style>
+    .flash-container {
+        z-index: 1000; /* This ensures it's above most other content */
+        position: relative; /* This ensures the z-index is effective */
+    }
+
+    .section-header {
+        margin-top: 60px; /* Adjust this value if needed */
+    }
+</style>
+{% endblock stylesheets %}
 
 {% block content %}
 

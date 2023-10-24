@@ -1,3 +1,5 @@
+<!-- The dashboard leverage open source bootstrap UI, this is the minimally modified example -->
+<!-- original code available at https://github.com/app-generator/flask-datta-able/tree/master -->
 <!-- [ navigation menu ] start -->
 <nav class="pcoded-navbar">
     <div class="navbar-wrapper">
@@ -6,7 +8,7 @@
                 <div class="b-bg">
                     <i class="feather icon-trending-up"></i>
                 </div>
-                <span class="b-title">Datta Able</span>
+                <span class="b-title">ED Dashboard</span>
             </a>
             <a class="mobile-menu" id="mobile-collapse" href="javascript:"><span></span></a>
         </div>
@@ -91,7 +93,7 @@
                 </li>
 
                 <li data-username="Disabled Menu" class="nav-item">
-                    <a href="{{ url_for('authentication_blueprint.logout') }}" class="nav-link">
+                    <a href="{{ url_for('auth.logout') }}" class="nav-link">
                         <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Logout</span>
                     </a>
                 </li>

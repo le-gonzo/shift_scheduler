@@ -1,0 +1,82 @@
+<!-- [ navigation menu ] start -->
+<nav class="pcoded-navbar">
+    <div class="navbar-wrapper">
+        <div class="navbar-brand header-logo">
+            <a href="/" class="b-brand">
+                <div class="b-bg">
+                    <i class="feather icon-trending-up"></i>
+                </div>
+                <span class="b-title">ED Dashboard</span>
+            </a>
+            <a class="mobile-menu" id="mobile-collapse" href="javascript:"><span></span></a>
+        </div>
+        <div class="navbar-content scroll-div">
+            <ul class="nav pcoded-inner-navbar">
+
+                <!-- Navigation options start -->
+                <li class="nav-item pcoded-menu-caption">
+                    <label>Navigation</label>
+                </li>
+                <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" 
+                    class="nav-item {% if 'index' in segment %} active {% endif %}">
+                    <a href="/" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span
+                            class="pcoded-mtext">Dashboard</span></a>
+                </li>
+                <li data-username="Profile Page" 
+                    class="nav-item {% if 'profile' in segment %} active {% endif %}">
+                    <a href="/profile.html" class="nav-link">
+                        <span class="pcoded-micon"><i class="feather icon-user"></i></span>
+                            <span class="pcoded-mtext">Profile Page</span></a>
+                </li> 
+                
+                <li data-username="Disabled Menu" class="nav-item">
+                    <a href="{{ url_for('auth.logout') }}" class="nav-link">
+                        <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Logout</span>
+                    </a>
+                </li>
+
+                <!-- Super User Tools Start start -->
+                <li class="nav-item pcoded-menu-caption">
+                    <label>Super User Tools</label>
+                </li>
+
+                <li data-username="superusers Manage Roles"
+                    class="nav-item pcoded-hasmenu ">
+                    <a href="javascript:" class="nav-link "><span class="pcoded-micon"><i class="feather icon-users"></i></span>
+                        <span class="pcoded-mtext">Manage All Users</span><span
+                        class="pcoded-badge label label-danger">TODO</span></a>
+                    <ul class="pcoded-submenu">
+                        <li class=""><a href="/bc_button.html" class="">Overview</a></li>
+                        <li class=""><a href="/bc_badges.html" class="">Add Users</a></li>
+                        <li class=""><a href="/bc_breadcrumb-pagination.html" class="">Edit Users</a></li>
+                        <li class=""><a href="/bc_collapse.html" class="">Manage Roles</a></li>
+                        <li class=""><a href="/bc_tabs.html" class="">Activity log</a></li>
+                        <li class=""><a href="/bc_typography.html" class="">Deactivate/Reactivate</a></li>
+                        <li class=""><a href="/icon-feather.html" class="">Import/Export</a></li>                                
+                    </ul>
+
+
+                <!-- Admin Tools Start start -->
+                <li class="nav-item pcoded-menu-caption">
+                    <label>Admin Tools</label>
+                </li>
+
+                <li data-username="Randomizer Daily Assigments Schedule"
+                    class="nav-item pcoded-hasmenu ">
+                    <a href="javascript:" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file"></i></span>
+                        <span class="pcoded-mtext">Daily Assigments </span></a>
+                    <ul class="pcoded-submenu">
+                        <li class=""><a href="/bc_button.html" class="">Configure Settings</a></li>
+                        <li class=""><a href="/bc_badges.html" class="">Randomized New Schedule</a></li>
+                        <li class=""><a href="/bc_badges.html" class="">Edit Schedule</a></li>
+                        <li class=""><a href="/bc_breadcrumb-pagination.html" class="">Export Schedule</a></li>                               
+                    </ul>
+                  
+                    
+
+             
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- [ navigation menu ] end -->

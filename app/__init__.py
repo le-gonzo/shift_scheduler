@@ -55,6 +55,8 @@ def create_app():
     app.register_blueprint(main_bp)
     from app.blueprints.auth import auth_bp
     app.register_blueprint(auth_bp)
+    from app.blueprints.dashboard import dashboard_bp
+    app.register_blueprint(dashboard_bp, url_prefix='/dashboard')
     
     # Logging setup
     if not app.debug:

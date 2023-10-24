@@ -13,6 +13,10 @@ class User(db.Model, UserMixin):
     confirmed_at = db.Column(db.DateTime())
     active = db.Column('is_active', db.Boolean(), nullable=False, server_default='0')
 
+    @property
+    def password(self):
+        return self.password_hash
+
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
 

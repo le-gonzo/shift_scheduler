@@ -29,7 +29,7 @@ def login():
             flash('Password is incorrect. Please try again.', 'danger')
         else:
             login_user(user)
-            return redirect(url_for('main.home'))
+            return redirect(url_for('dashboard.home'))
 
     return render_template('login.html', form=form)
 
