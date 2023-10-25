@@ -5,4 +5,8 @@ from . import dashboard_bp
 def home():
     return render_template("/layouts/dashboard_base.html")
 
+@dashboard_bp.route('/profile')
+def profile():
+    return render_template("/home/profile.html")
+
 from . import routes
