@@ -57,6 +57,8 @@ def create_app():
     app.register_blueprint(auth_bp)
     from app.blueprints.dashboard import dashboard_bp
     app.register_blueprint(dashboard_bp, url_prefix='/dashboard')
+    from app.blueprints.sysadmin import sysadmin_bp
+    app.register_blueprint(sysadmin_bp, url_prefix='/sysadmin')
     
     # Logging setup
     if not app.debug:

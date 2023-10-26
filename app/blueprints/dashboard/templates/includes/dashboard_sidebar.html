@@ -24,7 +24,7 @@
                 </li>
                 <li data-username="Profile Page" 
                     class="nav-item {% if 'profile' in segment %} active {% endif %}">
-                    <a href="/profile.html" class="nav-link">
+                    <a href="{{ url_for('dashboard.profile') }}" class="nav-link">
                         <span class="pcoded-micon"><i class="feather icon-user"></i></span>
                             <span class="pcoded-mtext">Profile Page</span></a>
                 </li> 
@@ -36,26 +36,25 @@
                 </li>
 
                 <!-- Super User Tools Start start -->
+                {% if current_user.role.name in ['System Admin','Administrator'] %}
                 <li class="nav-item pcoded-menu-caption">
-                    <label>Super User Tools</label>
+                    <label>System Administrator Tools</label>
                 </li>
 
                 <li data-username="superusers Manage Roles"
                     class="nav-item pcoded-hasmenu ">
                     <a href="javascript:" class="nav-link "><span class="pcoded-micon"><i class="feather icon-users"></i></span>
-                        <span class="pcoded-mtext">Manage All Users</span><span
+                        <span class="pcoded-mtext">Manage Users</span><span
                         class="pcoded-badge label label-danger">TODO</span></a>
                     <ul class="pcoded-submenu">
-                        <li class=""><a href="/bc_button.html" class="">Overview</a></li>
-                        <li class=""><a href="/bc_badges.html" class="">Add Users</a></li>
-                        <li class=""><a href="/bc_breadcrumb-pagination.html" class="">Edit Users</a></li>
+                        <li class=""><a href="{{ url_for('sysadmin.user_overview') }}" class="">User Overview</a></li>
+                        {% if current_user.role.name in ['System Admin'] %}
                         <li class=""><a href="/bc_collapse.html" class="">Manage Roles</a></li>
-                        <li class=""><a href="/bc_tabs.html" class="">Activity log</a></li>
-                        <li class=""><a href="/bc_typography.html" class="">Deactivate/Reactivate</a></li>
-                        <li class=""><a href="/icon-feather.html" class="">Import/Export</a></li>                                
+                        {% endif %}
+                        <li class=""><a href="/bc_tabs.html" class="">Manage Groups</a></li>                         
                     </ul>
 
-
+                    {% endif %}
                 <!-- Admin Tools Start start -->
                 <li class="nav-item pcoded-menu-caption">
                     <label>Admin Tools</label>
@@ -67,7 +66,7 @@
                         <span class="pcoded-mtext">Daily Assigments </span></a>
                     <ul class="pcoded-submenu">
                         <li class=""><a href="/bc_badges.html" class="">Randomized New Schedule</a></li>
-                        <li class=""><a href="/bc_badges.html" class="">Edit Schedule</a></li>
+                        <li class=""><a href="/bc_badges.html" class="">View/Edit Schedule</a></li>
                         <li class=""><a href="/bc_breadcrumb-pagination.html" class="">Export Schedule</a></li>
                         <li class=""><a href="/bc_button.html" class="">Configure Settings</a></li>                               
                     </ul>
