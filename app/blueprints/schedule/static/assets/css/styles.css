@@ -35,13 +35,18 @@ th, td {
     writing-mode: vertical-rl; 
     transform: rotate(180deg);
     white-space: nowrap;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform-origin: left top;
-    margin-top: 2em; /* This might need to be adjusted, controls rotated up and down */
-    z-index: 1; /* Keeps the label above the table */
+    width:40px;
+    padding: 0;
+    text-align: center;
+    background-color: #ebebeb; /* default is grey but we change this dynamicaly from the db settings */
 }
+
+.schedule-body {
+    display: flex;
+    justify-content: space-between;  /* Optionally space out the tables */
+}
+
+
 
 .block table {
     margin-left: 30px; /* Provides space for the rotated label; adjust as needed */

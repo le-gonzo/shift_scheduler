@@ -49,7 +49,7 @@
                     <ul class="pcoded-submenu">
                         <li class=""><a href="{{ url_for('sysadmin.user_overview') }}" class="">User Overview</a></li>
                         {% if current_user.role.name in ['System Admin'] %}
-                        <li class=""><a href="/bc_collapse.html" class="">Manage Roles</a></li>
+                        <li class=""><a href="{{ url_for('sysadmin.manage_roles') }}" class="">Manage Roles</a></li>
                         {% endif %}
                         <li class=""><a href="/bc_tabs.html" class="">Manage Groups</a></li>                         
                     </ul>
@@ -66,7 +66,7 @@
                         <span class="pcoded-mtext">Daily Assigments </span></a>
                     <ul class="pcoded-submenu">
                         <li class=""><a href="/bc_badges.html" class="">Randomized New Schedule</a></li>
-                        <li class=""><a href="/bc_badges.html" class="">View/Edit Schedule</a></li>
+                        <li class=""><a href="{{ url_for('schedule.daily') }}" class="">View/Edit Schedule</a></li>
                         <li class=""><a href="/bc_breadcrumb-pagination.html" class="">Export Schedule</a></li>
                         <li class=""><a href="/bc_button.html" class="">Configure Settings</a></li>                               
                     </ul>

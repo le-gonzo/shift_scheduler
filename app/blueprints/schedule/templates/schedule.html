@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule for schedule Date here </title> 
+    <link rel="stylesheet" href="{{ url_for('schedule.static', filename='assets/css/styles.css') }}">
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>ED Daily Assignment Sheet</h1>
+        <!-- <h2>Date: some date</h2> -->
+        <!-- <h2>Day of the Week: some weekday</h2> -->
+    </div>
+
+    <!-- Schedule Body -->
+    <div class="schedule-body">
+        <table>
+            <tr>
+                <th></th>
+                <th width="150">Role</th>
+                <th>Locker</th>
+                {% for timeslot in timeslots[:3] %}
+                    <th>{{ timeslot.display_name }}</th>
+                {% endfor %}
+            </tr>
+            {% for location in locations_with_assignments %}
+                {% set num_assignments = location.assignments.all()|length %}
+                {% for assignment in location.assignments %}
+                    <tr>
+                        <!-- Using rowspan for the location label on the first assignment only -->
+                        {% if loop.first %}
+                            <th rowspan="{{ num_assignments }}" class="location-label" style="background-color: #{{ location.display_color }}; color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};">{{ location.name }}</th>
+                        {% endif %}
+                        <td width="150" style="background-color: #{{ location.display_color }}; color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};">{{ assignment.name }}</td>
+                        <td>{#{ assignment.locker }#}</td>
+                        {% for timeslot in timeslots[:3] %}
+                            <td>some employee</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            {% endfor %}
+        </table>
+
+        <table>
+            <tr>
+                <th></th>
+                <th width="150">Role</th>
+                <th>Locker</th>
+                {% for timeslot in timeslots[-3:] %}
+                    <th>{{ timeslot.display_name }}</th>
+                {% endfor %}
+            </tr>
+            {% for location in locations_with_assignments %}
+                {% set num_assignments = location.assignments.all()|length %}
+                {% for assignment in location.assignments %}
+                    <tr>
+                        <!-- Using rowspan for the location label on the first assignment only -->
+                        {% if loop.first %}
+                            <th rowspan="{{ num_assignments }}" class="location-label" style="background-color: #{{ location.display_color }}; color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};">{{ location.name }}</th>
+                        {% endif %}
+                        <td width="150" style="background-color: #{{ location.display_color }}; color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};">{{ assignment.name }}</td>
+                        <td>{#{ assignment.locker }#}</td>
+                        {% for timeslot in timeslots[-3:] %}
+                            <td>some employee</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            {% endfor %}
+        </table>
+    </div>
+
+    <!-- Footer Notes Section -->
+    <div class="footer-notes">
+        <h4>Sick Calls:</h4>
+        <!-- <p>{#{ schedule.sick_calls }#}</p> -->
+
+        <h4>Staffing Issues:</h4>
+        <!-- <p>{#{ schedule.staffing_issues }#}</p> -->
+    </div>
+
+</body>
+</html>
+

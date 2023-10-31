@@ -80,6 +80,8 @@ class Location(db.Model):
     assignments = db.relationship('Assignment', backref='location', lazy='dynamic')
     valid_start = db.Column(db.Date)
     valid_end = db.Column(db.Date)
+    display_color =  db.Column(db.String(6)) # template colors for locations can be changed dynamically.
+    display_location_label = db.Column(db.Boolean, default=True)
     
 
 

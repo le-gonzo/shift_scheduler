@@ -2,6 +2,7 @@
 config.py
 xml_parser_test.py
 uploads/
+output.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
