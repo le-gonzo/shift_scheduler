@@ -31,9 +31,14 @@
                     <tr>
                         <!-- Using rowspan for the location label on the first assignment only -->
                         {% if loop.first %}
-                            <th rowspan="{{ num_assignments }}" class="location-label" style="background-color: #{{ location.display_color }}; color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};">{{ location.name }}</th>
+                            <th rowspan="{{ num_assignments }}" class="location-label" 
+                                style="background-color: #{{ location.display_color }}; 
+                                                  color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};
+                                                  ">{{location.name if location.display_location_label else '' }}</th>
                         {% endif %}
-                        <td width="150" style="background-color: #{{ location.display_color }}; color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};">{{ assignment.name }}</td>
+                        <td width="150" style="background-color: #{{ location.display_color }}; 
+                                                          color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};
+                                                          ">{{ assignment.name }}</td>
                         <td>{#{ assignment.locker }#}</td>
                         {% for timeslot in timeslots[:3] %}
                             <td>some employee</td>
@@ -58,9 +63,14 @@
                     <tr>
                         <!-- Using rowspan for the location label on the first assignment only -->
                         {% if loop.first %}
-                            <th rowspan="{{ num_assignments }}" class="location-label" style="background-color: #{{ location.display_color }}; color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};">{{ location.name }}</th>
+                            <th rowspan="{{ num_assignments }}" class="location-label" style="background-color: #{{ location.display_color }}; 
+                                                                                                         color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};
+                                                                                                         ">
+                                                                                                         {{location.name if location.display_location_label else '' }}</th>
                         {% endif %}
-                        <td width="150" style="background-color: #{{ location.display_color }}; color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};">{{ assignment.name }}</td>
+                        <td width="150" style="background-color: #{{ location.display_color }}; 
+                                                          color: {{ 'white' if is_dark_color(location.display_color) else 'black' }};
+                                                          ">{{  assignment.name }}</td>
                         <td>{#{ assignment.locker }#}</td>
                         {% for timeslot in timeslots[-3:] %}
                             <td>some employee</td>
