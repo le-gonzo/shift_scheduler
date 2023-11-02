@@ -1,0 +1,63 @@
+{% extends "layouts/dashboard_base.html" %}
+
+{% block title %} Upload XML {% endblock %} 
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}
+<!-- Consider adding any specific stylesheets here if required -->
+{% endblock stylesheets %}
+
+{% block content %}
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+    <div class="pcoded-wrapper">
+        <div class="pcoded-content">
+            <div class="pcoded-inner-content">
+                <div class="main-body">
+                    <div class="page-wrapper">
+                    <!-- FLASH MESSAGE SECTION-->
+                    {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                            <div class="flashes">
+                                {% for message in messages %}
+                                    <div class="alert alert-info">
+                                        {{ message }}
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    {% endwith %}
+                        <!-- Upload Section -->
+                        <h3>Upload New XML File:</h3>
+                        <p>Please ensure your XML file follows the correct structure and specifications. Incorrect files may not process correctly.</p>
+                        <form action="{{ url_for('schedule.upload') }}" method="POST" enctype="multipart/form-data">
+                            <input type="file" name="file" accept=".xml">
+                            <input type="submit" class="btn btn-primary" value="Upload">
+                            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                        </form>
+                        
+                        <!-- Previous Uploads Section -->
+                        <h3>Previous Uploads:</h3>
+                        <p>Below are the results from your previous XML file uploads:</p>
+                        <!-- List previous uploads. Assuming you'll pass a list of previous uploads to the template. -->
+                        <ul>
+                        {#% for upload in previous_uploads %#}
+                            <li>
+                                Uploaded on: {#{ upload.date }#} - 
+                                <a href="{#{ url_for('results_view', upload_id=upload.id) }#}">View Results</a>
+                            </li>
+                        {#% endfor %#}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<!-- Consider adding any specific JS scripts here if required -->
+{% endblock javascripts %}

@@ -41,8 +41,6 @@ class User(db.Model, UserMixin):
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
 
-
-
 class ShiftTemplate(db.Model):
     """
     This table defines a generic structure for shift templates. 
@@ -75,7 +73,6 @@ class Assignment(db.Model):
     display_color_overide = db.Column(db.String(6)) # label will inherit location color, but can overide with this value if available
 
     
-
 class Location(db.Model):
     """
     Represents the physical location of an assignment.
@@ -110,6 +107,9 @@ class DailyScheduleData(db.Model):
     value = db.Column(db.Float)
 
     assignment = db.Column(db.String(100), server_default='unassigned')
+    #metadata
+    record_uploaded_at = db.Column(db.DateTime, default=datetime.utcnow)
+    record_uploaded_by = db.Column(db.String(60))
 
     __table_args__ = (
         PrimaryKeyConstraint('date', 'coverage_period', 'name', 'code'),

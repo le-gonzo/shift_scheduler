@@ -63,12 +63,14 @@
                 <li data-username="Randomizer Daily Assigments Schedule"
                     class="nav-item pcoded-hasmenu ">
                     <a href="javascript:" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file"></i></span>
-                        <span class="pcoded-mtext">Daily Assigments </span></a>
+                        <span class="pcoded-mtext">ED Dailies </span></a>
                     <ul class="pcoded-submenu">
-                        <li class=""><a href="/bc_badges.html" class="">Randomized New Schedule</a></li>
+                        <li class=""><a href="/bc_badges.html" class="">Overview</a></li>
+                        <li class=""><a href="{{ url_for('schedule.uploader_window') }}">Upload New Daily Roster</a></li>
+                        <li class=""><a href="{#{ url_for('schedule.uploader_window') }#}" class="">Randomize New Schedule</a></li>
                         <li class=""><a href="{{ url_for('schedule.daily') }}" class="">View/Edit Schedule</a></li>
                         <li class=""><a href="/bc_breadcrumb-pagination.html" class="">Export Schedule</a></li>
-                        <li class=""><a href="/bc_button.html" class="">Configure Settings</a></li>                               
+                        <li class=""><a href="/bc_button.html" class="">Configure Settings</a></li>                           
                     </ul>
                   
                     
