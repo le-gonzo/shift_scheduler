@@ -2,8 +2,12 @@
 from app import db
 from datetime import datetime
 
+from sqlalchemy import PrimaryKeyConstraint
+
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_user import UserMixin
+
+
 
 #######################################################################
 # Core Models
@@ -23,6 +27,9 @@ class User(db.Model, UserMixin):
     
     # Change roles to role and remove the secondary argument
     role = db.relationship('Role', backref=db.backref('users', lazy='dynamic'))
+
+    # One-to-one relationship with UserDetail
+    user_detail = db.relationship('UserDetail', backref=db.backref('user', uselist=False), uselist=False, cascade="all, delete-orphan")
 
     @property
     def password(self):
@@ -84,7 +91,29 @@ class Location(db.Model):
     display_location_label = db.Column(db.Boolean, default=True)
     
 
+class DailyScheduleData(db.Model):
+    """
+    Represents the Daily Schedule data imported from xml files  
+    """
+    
+    __tablename__ = 'daily_schedule_data'
 
+    date = db.Column(db.Date, index = True)
+    entity = db.Column(db.String(100))
+    coverage_period = db.Column(db.String(100), nullable=False)
+    department = db.Column(db.String(50))
+    date_detail = db.Column(db.DateTime())
+    name = db.Column(db.String(100), nullable=False)
+    role = db.Column(db.String(100), nullable=False)
+    contact = db.Column(db.String(100))
+    code = db.Column(db.String(100), nullable=False)
+    value = db.Column(db.Float)
+
+    assignment = db.Column(db.String(100), server_default='unassigned')
+
+    __table_args__ = (
+        PrimaryKeyConstraint('date', 'coverage_period', 'name', 'code'),
+    )
 
 #######################################################################
 # LOOKUP TABLES
@@ -104,6 +133,35 @@ class Group(db.Model):
     name = db.Column(db.String(50), unique=True)
 
 #######################################################################
+# LDAP user data look up
+#######################################################################
+
+class LDAPUserData(db.Model):
+    __tablename__ = 'ldap_user_data'
+
+    uciUCNetID = db.Column(db.Integer, primary_key=True)
+    uid = db.Column(db.String(20), db.ForeignKey('user.username'))  # Foreign key to User table's username column
+    uciCampusID = db.Column(db.String(12))
+    displayName = db.Column(db.String(60))
+    sn = db.Column(db.String(60))
+    givenName = db.Column(db.String(60))
+    middleName = db.Column(db.String(60))
+    uciPublishedTitle1 = db.Column(db.String(60))
+    uciAffiliation = db.Column(db.String(100))
+    uciPrimaryDepartmentCode = db.Column(db.String(10))
+    uciPrimaryDepartment = db.Column(db.String(30))
+    uciLevel3DepartmentDescription = db.Column(db.String(30))
+    ou = db.Column(db.String(60))
+    uciMailDeliveryPoint = db.Column(db.String(60))
+    uciPublishedOfficeAddress1 = db.Column(db.String(60))
+    uciPublishedDepartment1 = db.Column(db.String(60))
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    user = db.relationship('User', backref=db.backref('ldap_user_data', uselist=False))
+
+
+#######################################################################
 # Expanded User Info Model
 #######################################################################
 
@@ -121,6 +179,7 @@ class UserDetail(db.Model):
     emergency_contact_name = db.Column(db.String(100))
     emergency_contact_number = db.Column(db.String(15))
     position_title = db.Column(db.String(100))
+    department = db.Column(db.String(100))
     hire_date = db.Column(db.Date)
     employee_id = db.Column(db.String(100), nullable=True)
     certifications = db.Column(db.Text, nullable=True)

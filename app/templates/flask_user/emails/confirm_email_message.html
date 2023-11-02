@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Confirmation</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    <div style="max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #ddd;">
+        <div style="background-color: #007bff; padding: 10px 15px; color: white;">
+            <h3>ED Dashboard - Email Confirmation</h3>
+        </div>
+        <div style="padding: 20px;">
+            <p class="lead">Hello <strong>{{ldap_user_data.displayName}}</strong>,</p>
+            <p>Welcome to ED Dashboard! Please confirm your email address by clicking on the link below:</p>
+            <a href="{{confirm_email_link}}" style="display: inline-block; padding: 10px 15px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Confirm Email</a>
+            
+            <!-- User Information Summary Table -->
+            <h4 style="margin-top: 20px;">Your Profile Summary:</h4>
+            <table style="width: 100%; margin-top: 10px; border-collapse: collapse;">
+                <tbody>
+                    <tr>
+                        <th style="padding: 10px; border: 1px solid #ddd; background-color: #f5f5f5;">Full Name</th>
+                        <td style="padding: 10px; border: 1px solid #ddd;">{{ldap_user_data.displayName}}</td>
+                    </tr>
+                    <tr>
+                        <th style="padding: 10px; border: 1px solid #ddd; background-color: #f5f5f5;">Employee Title</th>
+                        <td style="padding: 10px; border: 1px solid #ddd;">{{ldap_user_data.uciPublishedTitle1}}</td>
+                    </tr>
+                    <tr>
+                        <th style="padding: 10px; border: 1px solid #ddd; background-color: #f5f5f5;">Employee Department</th>
+                        <td style="padding: 10px; border: 1px solid #ddd;">{{ldap_user_data.uciPrimaryDepartment}}</td>
+                    </tr>
+                    <tr>
+                        <th style="padding: 10px; border: 1px solid #ddd; background-color: #f5f5f5;">Username</th>
+                        <td style="padding: 10px; border: 1px solid #ddd;">{{user.username}}@hs.uci.edu</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="margin-top: 20px;">If the above information is correct, proceed with email confirmation. If not, please contact our support team.</p>
+            <p>Regards,<br>ED Dashboard Team</p>
+        </div>
+    </div>
+
+</body>
+</html>

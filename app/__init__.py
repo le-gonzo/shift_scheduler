@@ -48,7 +48,10 @@ def create_app():
     @login_manager.user_loader
     def load_user(user_id):
         from app.models.user import User  # This import avoids circular dependencies
-        return User.query.get(int(user_id))
+        user = User.query.get(int(user_id))
+        if user:
+            return user
+        return None
     
     # Blueprints
     from app.blueprints.main import main_bp

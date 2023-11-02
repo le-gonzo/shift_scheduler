@@ -44,5 +44,5 @@ def daily():
     timeslots = ShiftTemplate.query.all()
     
 
-    return render_template('schedule.html', locations_with_assignments = locations_with_assignments, 
+    return render_template('schedule.html.j2', locations_with_assignments = locations_with_assignments, 
                            timeslots = timeslots, is_dark_color = is_dark_color)
