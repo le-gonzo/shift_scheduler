@@ -1,10 +1,12 @@
-from app import db 
+import pytz
+pst = pytz.timezone('America/Los_Angeles')  # Pacific Standard Time
+
+from app import db
 from app.models.user import DailyScheduleData, Location, Assignment, ShiftTemplate
 
 import xml.etree.ElementTree as ET
 import pandas as pd
 import numpy as np
-from icecream import ic
 
 from flask import current_app
 
@@ -61,7 +63,7 @@ class XMLParser:
                         record = self._extract_detail(detail)
                         self.records.append(record)
 
-    def to_dataframe(self):
+    def to_dataframe(self, username):
         """Converts records to a pandas DataFrame and does necessary conversions."""
         df = pd.DataFrame(self.records)
 
@@ -69,12 +71,18 @@ class XMLParser:
         df['Date'] = pd.to_datetime(df['Date'])
         df['DateDetail'] = pd.to_datetime(df['DateDetail'])
 
+        # Localize to PST
+        df['DateDetail'] = df['DateDetail'].dt.tz_localize(pst, ambiguous='infer')
+
         # Convert Value to float
         df['Value'].replace('', np.nan, inplace=True)
         df['Value'] = df['Value'].astype(float)
 
         # Drop rows where 'Name' is empty or null
         df = df[df['Name'].astype(bool)]
+
+        # Add the username to the DataFrame
+        df['record_uploaded_by'] = username
         
         columns_list = df.columns.tolist()
         current_app.logger.info(f'xml file parsed into the follow columns: {columns_list}')
@@ -109,6 +117,21 @@ class XMLParser:
         # Commit the session to save data to the database
         db.session.commit()
 
+    def delete_existing_db_records(self, date):
+        # Delete existing records with the given date
+        db.session.query(DailyScheduleData).filter(DailyScheduleData.date == date).delete()
+        db.session.commit()
+
+
+    def check_date_exists(self, date):
+        """Check if a given date already exists in the database."""
+        exists = db.session.query(
+            db.exists().where(DailyScheduleData.date == date)
+        ).scalar()
+        return exists
+
+
+
 
 if __name__ == "__main__":
     parser = XMLParser('app/uploads/Daily Roster by Shift.xml')
@@ -117,7 +140,6 @@ if __name__ == "__main__":
 
     # Get a list of distinct codes abstracted from the xml file
     distinct_shift_codes = df[['Code']].drop_duplicates()
-    ic(distinct_shift_codes)
 
 
     df.to_csv('.output.csv', index=False)

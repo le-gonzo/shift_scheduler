@@ -1,0 +1,57 @@
+{% extends "layouts/dashboard_base.html" %}
+
+{% block title %} Confirm Upload {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}
+<!-- You can add any specific stylesheets here if required -->
+{% endblock stylesheets %}
+
+{% block content %}
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+    <div class="pcoded-wrapper">
+        <div class="pcoded-content">
+            <div class="pcoded-inner-content">
+                <div class="main-body">
+                    <div class="page-wrapper">
+                        <!-- FLASH MESSAGE SECTION-->
+                        {% with messages = get_flashed_messages() %}
+                            {% if messages %}
+                                <div class="flashes">
+                                    {% for message in messages %}
+                                        <div class="alert alert-info">
+                                            {{ message }}
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        {% endwith %}
+                        
+                        <!-- Confirm Upload Section -->
+                        <h3>Warning: Duplicate Date Detected</h3>
+                        <p>Records for the date <strong>{{ date }}</strong> already exist in the database.</p>
+                        <p>Would you like to overwrite existing records with the new data?</p>
+                        <form action="{{ url_for('schedule.confirm_upload') }}" method="POST">
+                            <input type="hidden" name="date" value="{{ date }}">
+                            <input type="hidden" name="file_path" value="{{ file_path }}">
+                            <input type="submit" class="btn btn-danger" name="decision" value="yes" onclick="return confirm('Are you sure you want to overwrite existing records?');" /> Overwrite
+                            <input type="submit" class="btn btn-default" name="decision" value="no" /> Cancel
+                            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                        </form>
+                        
+                        <br>
+                        <a href="{{ url_for('schedule.uploader_window') }}">Return to Upload Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE -->
+{% block javascripts %}
+<!-- You can add any specific JS scripts here if required -->
+{% endblock javascripts %}

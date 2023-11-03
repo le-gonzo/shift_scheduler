@@ -99,7 +99,7 @@ class DailyScheduleData(db.Model):
     entity = db.Column(db.String(100))
     coverage_period = db.Column(db.String(100), nullable=False)
     department = db.Column(db.String(50))
-    date_detail = db.Column(db.DateTime())
+    date_detail = db.Column(db.DateTime(timezone= True), default = datetime.utcnow)
     name = db.Column(db.String(100), nullable=False)
     role = db.Column(db.String(100), nullable=False)
     contact = db.Column(db.String(100))
