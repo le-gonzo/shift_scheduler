@@ -29,13 +29,13 @@
                         {% endwith %}
                         
                         <!-- Confirm Upload Section -->
-                        <h3>Warning: Duplicate Date Detected</h3>
-                        <p>Records for the date <strong>{{ date }}</strong> already exist in the database.</p>
+                        <h3>Warning: Duplicate Records Detected</h3>
+                        <p>Records for the date <strong>{{ date }}</strong> already exist in the database. Overwriting will reset all Daily Assignments. Are you sure you want to proceed?</p>
                         <p>Would you like to overwrite existing records with the new data?</p>
                         <form action="{{ url_for('schedule.confirm_upload') }}" method="POST">
                             <input type="hidden" name="date" value="{{ date }}">
                             <input type="hidden" name="file_path" value="{{ file_path }}">
-                            <input type="submit" class="btn btn-danger" name="decision" value="yes" onclick="return confirm('Are you sure you want to overwrite existing records?');" /> Overwrite
+                            <input type="submit" class="btn btn-danger" name="decision" value="yes" onclick="return confirm('Are you SURE you are sure? This action cannot be undone.');" /> Overwrite
                             <input type="submit" class="btn btn-default" name="decision" value="no" /> Cancel
                             <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
                         </form>

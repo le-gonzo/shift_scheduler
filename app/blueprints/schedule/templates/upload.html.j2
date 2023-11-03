@@ -1,6 +1,6 @@
 {% extends "layouts/dashboard_base.html" %}
 
-{% block title %} Upload XML {% endblock %} 
+{% block title %} Upload New File {% endblock %} 
 
 <!-- Specific CSS goes HERE -->
 {% block stylesheets %}
@@ -28,8 +28,15 @@
                         {% endif %}
                     {% endwith %}
                         <!-- Upload Section -->
-                        <h3>Upload New XML File:</h3>
-                        <p>Please ensure your XML file follows the correct structure and specifications. Incorrect files may not process correctly.</p>
+                        <h3>Upload New File:</h3>
+                        <p>The ED Daily randomizer system uses data abstracted from a report called <i>Daily Roster by Shift</i>
+                        If you have not done so already, please download a report for the date you wish to randomize from 
+                        <!-- rel="noopener noreferrer prevents tabnabbing, probably not needed but better safe than sorry -->
+                        <a href="https://api-web.hs.uci.edu/LaborWorkx/Login.aspx" target="_blank" rel="noopener noreferrer">
+                        API LaborWorks Portal</a>.
+                        <br><br>
+                        <b>Please ensure that the report exported from API LaborWorks Portal is formated as an XML file.</b>
+                        </p> 
                         <form action="{{ url_for('schedule.upload') }}" method="POST" enctype="multipart/form-data">
                             <input type="file" name="file" accept=".xml">
                             <input type="submit" class="btn btn-primary" value="Upload">
@@ -38,7 +45,7 @@
                         
                         <!-- Previous Uploads Section -->
                         <h3>Previous Uploads:</h3>
-                        <p>Below are the results from your previous XML file uploads:</p>
+                        <p>Below are the last 10 file uploads in the system:</p>
                         <!-- List previous uploads. Assuming you'll pass a list of previous uploads to the template. -->
                         <ul>
                         {#% for upload in previous_uploads %#}
