@@ -57,6 +57,14 @@ def daily():
 @custom_requires_roles('System Admin','Admin', 'Team Lead', 'Floor Lead')
 @login_required
 def upload():
+    """
+    Route to handle file uploads. It supports GET to render the upload page, and POST to handle the file upload process.
+    The function performs file checks and processes the XML file accordingly, providing feedback to the user.
+    
+    Returns:
+        On GET: Rendered template for the upload page.
+        On POST: Redirect to the upload page with a flash message indicating the status of the upload.
+    """
     if request.method == 'POST':
         # Get the current username for logging purposes
         
@@ -101,12 +109,15 @@ def upload():
                 
                 #if the date has not been previously submitted upload to database
                 parser.to_database(df)
+                os.remove(file_path)
                 flash('File uploaded to server successful.')
 
             except Exception as e:
                 flash(f'Error processing XML: {str(e)}')
                 current_app.logger.error(f"Error processing XML: {str(e)}", exc_info=True)  # XML Errors
                 return redirect(url_for('schedule.uploader_window'))
+            
+        
 
             return redirect(url_for('schedule.uploader_window'))
 
@@ -119,6 +130,21 @@ def upload():
 
 @schedule_bp.route('/confirm_upload', methods=['GET','POST'])
 def confirm_upload():
+    """
+    Handles the confirmation of an XML file upload when there's existing data for the same date.
+    It accepts both GET and POST methods. A POST request with a positive decision ('yes') will
+    trigger the replacement of the current data for the specified date with the new data from the uploaded file.
+    A negative decision ('no') or a GET request will cancel the upload process.
+    
+    POST Parameters:
+        decision (str): User's decision to overwrite existing data ('yes' or 'no').
+        date (str): The date for which the file data is applicable.
+        file_path (str): The file path of the uploaded XML file.
+
+    Returns:
+        On POST 'yes': Redirect to the upload window with a flash message indicating successful data replacement.
+        On POST 'no' or GET: Redirect to the upload window with a flash message indicating cancellation.
+    """
     decision = request.form.get('decision')
     date_to_check = request.form.get('date')
     
@@ -146,24 +172,29 @@ def confirm_upload():
                 except Exception as e:
                     flash(f'Error deleting old records: {str(e)}', "warning")
                     current_app.logger.error(f"Error deleting old records: {str(e)}", exc_info=True)
+                    os.remove(xml_path)
                     return redirect(url_for('schedule.uploader_window'))
 
                 #upload new data to the database
                 parser.to_database(df)
+                os.remove(xml_path)
                 flash("Existing data overwritten successfully.", "success")
 
         except Exception as e:
             flash(f"Error processing XML: {str(e)}")
             current_app.logger.error(f"Error processing XML: {str(e)}", exc_info=True)
-            return redirect(url_for('schedule.uploader_window'))
+            os.remove(xml_path)
 
+            return redirect(url_for('schedule.uploader_window'))
+        
 
     ### OVERIGHT = NO
     else:
         flash("Data upload cancelled.", "info")
-        
+        xml_path = request.form.get('file_path')
+        os.remove(xml_path)
+    
     return redirect(url_for('schedule.uploader_window'))
-
 
 
 

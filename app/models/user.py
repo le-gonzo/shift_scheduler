@@ -56,12 +56,12 @@ class ShiftTemplate(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), unique=True) #name of shift e.g. DAY 1, DAY 2, etc
     display_name = db.Column(db.String(50), unique=True) #How it will be displayed on the form e.g 0700, 1100
-    start_time = db.Column(db.Time) 
-    end_time = db.Column(db.Time)
+    start_time = db.Column(db.Time(timezone = False)) 
+    end_time = db.Column(db.Time(timezone = False))
 
 class Assignment(db.Model):
     """
-    Represents specific roles or responsibilities assigned during shifts.
+    Represents specific roles or responsibilities assigned during shifts. as they appear on the daily
     """
     __tablename__ = 'assignment'
 
@@ -126,17 +126,58 @@ class Role(db.Model):
     name = db.Column(db.String(50), unique=True)
 
 
+class LicensesAndCerts(db.Model):
+    """licenses and certs, expandable"""
+    __tablename__ = 'licenses_and_certs'
+    name = db.Column(db.String(100), unique=True, primary_key=True)
+
+class EDStaff(db.Model):
+    """ED staff records are updated fromt he API Report files linked to licenses and certs to inform business logic"""
+    __tablename__ = 'ed_staff'
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(100), unique=True, nullable=True)
+
+class EDStaffLicensesAndCerts(db.Model):
+    """links licenses_and_certs to ed_staff many to many relationship, used to track employee certs and licenses and expiration dates
+       for informing business logic"""
+    __tablename__ = 'ed_staff_licenses_and_certs'
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(100), db.ForeignKey('ed_staff.id', ondelete='CASCADE'))
+    license_or_cert_name = db.Column(db.String(100), db.ForeignKey('licenses_and_certs.name', ondelete='CASCADE'))
+    expiration_date = db.Column(db.Date)
+
+
 # Define the group model
 class Group(db.Model):
+    """These are user groups for the webapp, Roles are general roles like system admins etc.. groups allow fine tuning
+       for ad hoc groups... e.g. ED Physician group,  Unit Practice Council members, etc"""
     __tablename__ = 'group'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), unique=True)
+
+class ShiftCodeRef(db.Model):
+    """A running record of the shift codes as they appear in the API Report, includes metadata for business logic use
+    """
+    __tablename__ = 'shift_code_ref'
+    code = db.Column(db.String(100), unique=True, primary_key=True)
+    productive = db.Column(db.Boolean(), nullable=True)
+    orientation = db.Column(db.Boolean(), nullable=True)
+    shift_start = db.Column(db.Time, nullable=True)
+    shift_end = db.Column(db.Time, nullable=True)
+
+
+class ShiftRoleRef(db.Model):
+    """ A running record of employee roles as they appear in the API Report"""
+    __tablename__ = 'shift_role_ref'
+    role = db.Column(db.String(100), unique=True, primary_key=True)
+
 
 #######################################################################
 # LDAP user data look up
 #######################################################################
 
 class LDAPUserData(db.Model):
+    """LDAP user data saved from LDAP queries for faster retrieval"""
     __tablename__ = 'ldap_user_data'
 
     uciUCNetID = db.Column(db.Integer, primary_key=True)
