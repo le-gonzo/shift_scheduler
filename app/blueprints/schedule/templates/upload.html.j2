@@ -46,6 +46,32 @@
                         <!-- Previous Uploads Section -->
                         <h3>Previous Uploads:</h3>
                         <p>Below are the last 10 file uploads in the system:</p>
+                        <table class="table table-sm table-borderless mb-0">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Report Date</th>
+                                    <th>Uploaded By</th>
+                                    <th>Initial Upload Date</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for record in upload_history %}
+                                <tr>
+                                    <td>{{ record.date }}</td>
+                                    <td>{{ record.record_uploaded_by }}</td>
+                                    <td>{{ record.upload_date }}</td>
+                                    <td>{{ record.status }}</td>
+                                    <td>
+                                        <!-- You can put action buttons here, like 'Edit Role' -->
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+
+
                         <!-- List previous uploads. Assuming you'll pass a list of previous uploads to the template. -->
                         <ul>
                         {#% for upload in previous_uploads %#}

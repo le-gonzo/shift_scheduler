@@ -1,8 +1,8 @@
 """Employee tables and license certs
 
-Revision ID: 83f1aedcf2e3
+Revision ID: be9061c89b96
 Revises: 1d097a05c742
-Create Date: 2023-11-06 13:15:23.565014
+Create Date: 2023-11-06 13:22:47.687895
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '83f1aedcf2e3'
+revision = 'be9061c89b96'
 down_revision = '1d097a05c742'
 branch_labels = None
 depends_on = None
@@ -25,8 +25,9 @@ def upgrade():
     sa.UniqueConstraint('username')
     )
     op.create_table('licenses_and_certs',
-    sa.Column('name', sa.String(length=100), nullable=False),
-    sa.PrimaryKeyConstraint('name'),
+    sa.Column('id', sa.Integer(), nullable=False),
+    sa.Column('name', sa.String(length=100), nullable=True),
+    sa.PrimaryKeyConstraint('id'),
     sa.UniqueConstraint('name')
     )
     op.create_table('shift_role_ref',
@@ -36,11 +37,11 @@ def upgrade():
     )
     op.create_table('ed_staff_licenses_and_certs',
     sa.Column('id', sa.Integer(), nullable=False),
-    sa.Column('username', sa.String(length=100), nullable=True),
-    sa.Column('license_or_cert_name', sa.String(length=100), nullable=True),
+    sa.Column('staff_id', sa.Integer(), nullable=True),
+    sa.Column('license_or_cert_id', sa.Integer(), nullable=True),
     sa.Column('expiration_date', sa.Date(), nullable=True),
-    sa.ForeignKeyConstraint(['license_or_cert_name'], ['licenses_and_certs.name'], ondelete='CASCADE'),
-    sa.ForeignKeyConstraint(['username'], ['ed_staff.id'], ondelete='CASCADE'),
+    sa.ForeignKeyConstraint(['license_or_cert_id'], ['licenses_and_certs.id'], ondelete='CASCADE'),
+    sa.ForeignKeyConstraint(['staff_id'], ['ed_staff.id'], ondelete='CASCADE'),
     sa.PrimaryKeyConstraint('id')
     )
     with op.batch_alter_table('shift_code_ref', schema=None) as batch_op:

@@ -4,16 +4,18 @@
 import os
 from datetime import datetime, date
 
+from app import db
+
 # External Libraries
 from flask import request, render_template, redirect, url_for, flash, current_app
 from flask_login import login_user, logout_user, login_required, current_user
-from sqlalchemy import or_, and_
+from sqlalchemy import or_, and_, func, case
 from sqlalchemy.orm import joinedload, aliased
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.utils import secure_filename
 
 # Internal Modules
-from app.models.user import Location, Assignment, ShiftTemplate
+from app.models.user import Location, Assignment, ShiftTemplate, DailyScheduleData
 from . import schedule_bp
 from .utils.xml_parser import XMLParser
 from app.utils import custom_requires_roles, is_dark_color, allowed_file
@@ -202,4 +204,20 @@ def confirm_upload():
 @custom_requires_roles('System Admin','Admin', 'Team Lead', 'Floor Lead')
 @login_required
 def uploader_window():     
-    return render_template("/upload.html.j2")
+    upload_history = db.session.query(
+    DailyScheduleData.date, 
+    DailyScheduleData.record_uploaded_by, 
+    func.min(DailyScheduleData.record_uploaded_at).label('upload_date'),
+    case(
+        [
+            (func.sum(case([(DailyScheduleData.assignment == 'unassigned', 1)], else_=0)) > 0, 'INCOMPLETE')
+        ],
+        else_='COMPLETE'
+    ).label('status')
+).group_by(
+    DailyScheduleData.date,
+    DailyScheduleData.record_uploaded_by
+).all()
+
+
+    return render_template("/upload.html.j2", upload_history = upload_history)

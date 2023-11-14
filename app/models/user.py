@@ -129,21 +129,24 @@ class Role(db.Model):
 class LicensesAndCerts(db.Model):
     """licenses and certs, expandable"""
     __tablename__ = 'licenses_and_certs'
-    name = db.Column(db.String(100), unique=True, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), unique=True)
 
 class EDStaff(db.Model):
-    """ED staff records are updated fromt he API Report files linked to licenses and certs to inform business logic"""
+    """ED staff records are updated from the API Report files linked to licenses and certs to inform business logic"""
     __tablename__ = 'ed_staff'
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(100), unique=True, nullable=True)
+    username = db.Column(db.String(100), nullable=True) #username will link it to the app user and to the LDAP extended data but if display name changes (e.g. married or divroced), there may be duplicates of the same username
+    displayname = db.Column(db.String(100), unique=True, nullable=True) # this is the way the name is displayed in the API report
+    initial_creation_date = db.Column(db.DateTime, default=datetime.utcnow)
+    update_date = db.Column(db.DateTime, default=datetime.utcnow) #this will be updated every time the name reapears in a subsequent report via app logic
 
 class EDStaffLicensesAndCerts(db.Model):
-    """links licenses_and_certs to ed_staff many to many relationship, used to track employee certs and licenses and expiration dates
-       for informing business logic"""
+    """links licenses_and_certs to ed_staff in a many-to-many relationship, used to track employee certs and licenses and expiration dates for informing business logic"""
     __tablename__ = 'ed_staff_licenses_and_certs'
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(100), db.ForeignKey('ed_staff.id', ondelete='CASCADE'))
-    license_or_cert_name = db.Column(db.String(100), db.ForeignKey('licenses_and_certs.name', ondelete='CASCADE'))
+    staff_id = db.Column(db.Integer, db.ForeignKey('ed_staff.id', ondelete='CASCADE'))
+    license_or_cert_id = db.Column(db.Integer, db.ForeignKey('licenses_and_certs.id', ondelete='CASCADE'))
     expiration_date = db.Column(db.Date)
 
 
@@ -181,7 +184,7 @@ class LDAPUserData(db.Model):
     __tablename__ = 'ldap_user_data'
 
     uciUCNetID = db.Column(db.Integer, primary_key=True)
-    uid = db.Column(db.String(20), db.ForeignKey('user.username'))  # Foreign key to User table's username column
+    uid = db.Column(db.String(20))  # Foreign key to User table's username column
     uciCampusID = db.Column(db.String(12))
     displayName = db.Column(db.String(60))
     sn = db.Column(db.String(60))
@@ -199,7 +202,7 @@ class LDAPUserData(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
-    user = db.relationship('User', backref=db.backref('ldap_user_data', uselist=False))
+    #user = db.relationship('User', backref=db.backref('ldap_user_data', uselist=False))
 
 
 #######################################################################

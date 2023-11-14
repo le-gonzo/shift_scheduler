@@ -2,7 +2,8 @@ import pytz
 pst = pytz.timezone('America/Los_Angeles')  # Pacific Standard Time
 
 from app import db
-from app.models.user import DailyScheduleData, Location, Assignment, ShiftTemplate
+from app.models.user import DailyScheduleData, LDAPUserData, EDStaff
+from app.utils.ldap_utils import UCILDAPLookup, ATTRIBUTES
 
 import xml.etree.ElementTree as ET
 import pandas as pd
@@ -107,15 +108,31 @@ class XMLParser:
         """Save DataFrame to the DailyScheduleData table."""
         
         # Convert DataFrame to a list of dictionaries
-        records = df.to_dict(orient='records')
+        xml_records = df.to_dict(orient='records')
         
         # Create instances of DailyScheduleData and add to session
-        for record in records:
+        for record in xml_records:
             entry = DailyScheduleData(**record)
             db.session.add(entry)
         
         # Commit the session to save data to the database
         db.session.commit()
+
+
+        #next, lets check the names 
+
+        employees = df['name'].unique().tolist()
+
+         # Update ldap_user_data
+        for employee_name in employees:
+            try:
+                self.ldap_update(employee_name)  # Use 'self' to call the method from the same class
+            except Exception as e:
+                current_app.logger.error(f"LDAP update error for {employee_name}: {str(e)}")
+
+
+
+
 
     def delete_existing_db_records(self, date):
         # Delete existing records with the given date
@@ -129,6 +146,37 @@ class XMLParser:
             db.exists().where(DailyScheduleData.date == date)
         ).scalar()
         return exists
+    
+    def ldap_update(self, full_name):
+        """
+        Attempts to associate a username to new staff records by cross-referencing first and last name via the LDAP system,
+        this looks for staff listed under ED only.
+        """
+        ldap_lookup = UCILDAPLookup()
+        result_df = ldap_lookup.name_lookup(full_name)
+        
+        if not result_df.empty:  # Check if the LDAP search returned any results
+            for _, row in result_df.iterrows():
+                # Create a dictionary for the LDAPUserData record
+                ldap_record = {attr: row[attr] for attr in ATTRIBUTES if attr in row}
+                # Check if the record already exists in the internal ldap_user_data table
+                existing_user = LDAPUserData.query.filter_by(uid=ldap_record['uid']).first()
+                
+                if not existing_user:
+                    # If the record does not exist, create and add the new LDAPUserData record to the session
+                    new_ldap_user = LDAPUserData(**ldap_record)
+                    db.session.add(new_ldap_user)
+            
+            # Commit the session to save all new records to the database
+            try:
+                db.session.commit()
+            except Exception as e:
+                db.session.rollback()  # Rollback the changes on error
+                current_app.logger.error(f"Error updating LDAPUserData: {str(e)}")
+                raise  # Optionally re-raise the exception or handle it as needed
+
+
+
 
 
 
