@@ -1,4 +1,5 @@
 #shift_scheduler/app/models/user.py
+#diagram available at https://dbdiagram.io/d/Flask-App-Shift-randomizer-656670223be1495787ecbbcd
 from app import db
 from datetime import datetime
 
@@ -56,6 +57,7 @@ class ShiftTemplate(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), unique=True) #name of shift e.g. DAY 1, DAY 2, etc
     display_name = db.Column(db.String(50), unique=True) #How it will be displayed on the form e.g 0700, 1100
+    display_order = db.Column(db.Integer) #Display order of the shift (column left to right)
     start_time = db.Column(db.Time(timezone = False)) 
     end_time = db.Column(db.Time(timezone = False))
 
@@ -71,8 +73,13 @@ class Assignment(db.Model):
     valid_start = db.Column(db.Date) # when was this a valid assignment? oldest record from 4/6/2023
     valid_end = db.Column(db.Date) # Null means the assignment is still active
     display_color_overide = db.Column(db.String(6)) # label will inherit location color, but can overide with this value if available
-
+    daily_assignment_start = db.Column(db.Time()) #time the assignment is active each day
+    daily_assignment_hours = db.Column(db.Integer) # total hours the assignment is active each day, =24 when staffed 24 hours a day
     
+    
+    location = db.relationship('Location', back_populates='assignments')
+
+
 class Location(db.Model):
     """
     Represents the physical location of an assignment.
@@ -81,12 +88,15 @@ class Location(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100)) # e.g., "Triage", "ED1"
-    assignments = db.relationship('Assignment', backref='location', lazy='dynamic')
     valid_start = db.Column(db.Date)
     valid_end = db.Column(db.Date)
     display_color =  db.Column(db.String(6)) # template colors for locations can be changed dynamically.
     display_location_label = db.Column(db.Boolean, default=True)
+    display_order = db.Column(db.Integer) #Display order of the locations (rows top to bottom)
     
+    #relationships
+    assignments = db.relationship('Assignment', back_populates='location', lazy='dynamic')
+
 
 class DailyScheduleData(db.Model):
     """
@@ -110,11 +120,21 @@ class DailyScheduleData(db.Model):
     #metadata
     record_uploaded_at = db.Column(db.DateTime, default=datetime.utcnow)
     record_uploaded_by = db.Column(db.String(60))
+    assignment_id = db.Column(db.Integer, nullable = True )
 
     __table_args__ = (
         PrimaryKeyConstraint('date', 'coverage_period', 'name', 'code'),
     )
 
+class EmployeeCompetencies(db.Model):
+    """
+    specific skills, qualifications, and abilities that are needed for specific assignments
+    """
+    __tablename__ = 'employee_competencies'
+
+    id = db.Column(db.Integer, primary_key=True)
+    competency_name = db.Column(db.String(60), nullable=False)
+    
 #######################################################################
 # LOOKUP TABLES
 #######################################################################
@@ -173,6 +193,8 @@ class ShiftRoleRef(db.Model):
     """ A running record of employee roles as they appear in the API Report"""
     __tablename__ = 'shift_role_ref'
     role = db.Column(db.String(100), unique=True, primary_key=True)
+
+
 
 
 #######################################################################
@@ -245,4 +267,15 @@ class UserGroups(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user.id', ondelete='CASCADE'))
     group_id = db.Column(db.Integer, db.ForeignKey('group.id', ondelete='CASCADE'))
 
+class AssignmentEmployeeCompetencies(db.Model):
+    __tablename__ = 'assignment_employee_competencies'
+    id = db.Column(db.Integer, primary_key=True)
+    employee_competencies_id = db.Column(db.Integer, db.ForeignKey('employee_competencies.id', ondelete='CASCADE'))
+    assignment_id = db.Column(db.Integer, db.ForeignKey('assignment.id', ondelete='CASCADE'))
 
+class ReportLDAPMappings(db.Model):
+    """"Program logic generates mappings between employee names recorded in report and LDAP data"""
+    __tablename__ = 'report_ldap_mappings'
+    id = db.Column(db.Integer, primary_key=True)
+    uid = db.Column(db.String(20))
+    full_name = db.Column(db.String(60))

@@ -2,7 +2,7 @@ import pytz
 pst = pytz.timezone('America/Los_Angeles')  # Pacific Standard Time
 
 from app import db
-from app.models.user import DailyScheduleData, LDAPUserData, EDStaff
+from app.models.user import DailyScheduleData, LDAPUserData, EDStaff, ReportLDAPMappings
 from app.utils.ldap_utils import UCILDAPLookup, ATTRIBUTES
 
 import xml.etree.ElementTree as ET
@@ -166,7 +166,17 @@ class XMLParser:
                     # If the record does not exist, create and add the new LDAPUserData record to the session
                     new_ldap_user = LDAPUserData(**ldap_record)
                     db.session.add(new_ldap_user)
-            
+
+                existing_entry = ReportLDAPMappings.query.filter_by(full_name = full_name, uid = ldap_record.get('uid', None)).first()
+
+                if existing_entry:
+                    # If the entry exists with a blank UID, update it
+                    if existing_entry.uid is None:
+                        existing_entry.uid = ldap_record.get('uid')
+                else:
+                    # If no such entry exists, create a new one
+                    new_entry = ReportLDAPMappings(full_name=full_name, uid=ldap_record.get('uid'))
+                    db.session.add(new_entry)
             # Commit the session to save all new records to the database
             try:
                 db.session.commit()
