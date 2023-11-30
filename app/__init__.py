@@ -6,9 +6,9 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # 2. Third-party Library Imports
-from flask import Flask
+from flask import Flask, flash,redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager
+from flask_login import LoginManager, logout_user
 from flask_mail import Mail
 from flask_wtf.csrf import CSRFProtect
 from flask_migrate import Migrate
@@ -51,7 +51,19 @@ def create_app():
         user = User.query.get(int(user_id))
         if user:
             return user
+        logout_user()
         return None
+    
+    @app.errorhandler(AttributeError)
+    def handle_attribute_error(error):
+        error_message = str(error)
+        if "'NoneType' object has no attribute 'password'" in error_message:
+            logout_user()
+            flash('Your session has expired. Please log in again.', 'info')
+            return redirect(url_for('auth.login'))
+        else:
+            # Optionally, you can log the error or handle other attribute errors differently
+            raise error
     
     # Blueprints
     from app.blueprints.main import main_bp

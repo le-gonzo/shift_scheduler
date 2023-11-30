@@ -8,6 +8,7 @@ from app.utils.ldap_utils import UCILDAPLookup, ATTRIBUTES
 import xml.etree.ElementTree as ET
 import pandas as pd
 import numpy as np
+import datetime
 
 from flask import current_app
 
@@ -120,7 +121,6 @@ class XMLParser:
 
 
         #next, lets check the names 
-
         employees = df['name'].unique().tolist()
 
          # Update ldap_user_data
@@ -155,7 +155,20 @@ class XMLParser:
         ldap_lookup = UCILDAPLookup()
         result_df = ldap_lookup.name_lookup(full_name)
         
-        if not result_df.empty:  # Check if the LDAP search returned any results
+        if result_df.empty: # If the LDAP search returned no results
+            existing_staff = EDStaff.query.filter_by(displayname=full_name).first()
+
+            current_time = datetime.utcnow()
+
+            if existing_staff:
+                # If the staff already exists, update the update_date
+                existing_staff.update_date = current_time
+            else:
+                # If no such staff exists, create a new one
+                new_staff = EDStaff(displayname=full_name, initial_creation_date=current_time, update_date=current_time)
+                db.session.add(new_staff)
+
+        else:  # Check if the LDAP search returned any results
             for _, row in result_df.iterrows():
                 # Create a dictionary for the LDAPUserData record
                 ldap_record = {attr: row[attr] for attr in ATTRIBUTES if attr in row}
@@ -178,12 +191,12 @@ class XMLParser:
                     new_entry = ReportLDAPMappings(full_name=full_name, uid=ldap_record.get('uid'))
                     db.session.add(new_entry)
             # Commit the session to save all new records to the database
-            try:
-                db.session.commit()
-            except Exception as e:
-                db.session.rollback()  # Rollback the changes on error
-                current_app.logger.error(f"Error updating LDAPUserData: {str(e)}")
-                raise  # Optionally re-raise the exception or handle it as needed
+        try:
+            db.session.commit()
+        except Exception as e:
+            db.session.rollback()  # Rollback the changes on error
+            current_app.logger.error(f"Error updating LDAPUserData: {str(e)}")
+            raise  # Optionally re-raise the exception or handle it as needed
 
 
 

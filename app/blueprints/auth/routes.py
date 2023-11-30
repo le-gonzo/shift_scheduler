@@ -128,8 +128,11 @@ def confirm_email(token):
         user.active = True
         user.email_confirmed_at = datetime.utcnow()
 
+
+        ldap_user_data = LDAPUserData.query.filter_by(uid=user.username).first()
+
         # Assign the user's role based on LDAP data.
-        user.role_id = assign_role_based_on_ldap_data(user.ldap_user_data)
+        user.role_id = assign_role_based_on_ldap_data(ldap_user_data)
 
         db.session.commit()
         flash('Your email has been confirmed!', 'success')

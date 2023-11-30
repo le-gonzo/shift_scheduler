@@ -1,10 +1,16 @@
-from flask import render_template, redirect, url_for
-from flask_login import current_user
+from flask import render_template, redirect, url_for, flash
+from flask_login import current_user, logout_user
+from app.models.user import User
 from . import main_bp
 
 @main_bp.route('/')
 def home():
     if current_user.is_authenticated:
+        # Check if current user still exists in the database i.e. wasnt deleted while still logged in
+        if not User.query.get(current_user.id):
+            logout_user()
+            flash('Your account no longer exists.', 'danger')
+            return redirect(url_for('auth.login'))
         return redirect(url_for('dashboard.home'))
     return render_template("index.html")
 

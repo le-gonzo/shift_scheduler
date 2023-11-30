@@ -115,6 +115,12 @@ def assign_role_based_on_ldap_data(ldap_data):
     title = ldap_data.uciPublishedTitle1
     department = ldap_data.uciPrimaryDepartment
 
+    if not title:
+        return ROLE_GUEST
+
+    if not department:
+        return ROLE_GUEST
+
     # Check for Administrator roles
     if title in ["Director of Emergency/Trauma Services", "ED Manager"] and department == "Emergency Department":
         return ROLE_ADMINISTRATOR
