@@ -8,7 +8,7 @@ from app.utils.ldap_utils import UCILDAPLookup, ATTRIBUTES
 import xml.etree.ElementTree as ET
 import pandas as pd
 import numpy as np
-import datetime
+import datetime as dt
 
 from flask import current_app
 
@@ -131,9 +131,6 @@ class XMLParser:
                 current_app.logger.error(f"LDAP update error for {employee_name}: {str(e)}")
 
 
-
-
-
     def delete_existing_db_records(self, date):
         # Delete existing records with the given date
         db.session.query(DailyScheduleData).filter(DailyScheduleData.date == date).delete()
@@ -154,54 +151,69 @@ class XMLParser:
         """
         ldap_lookup = UCILDAPLookup()
         result_df = ldap_lookup.name_lookup(full_name)
+
+        current_time = dt.datetime.utcnow()
         
-        if result_df.empty: # If the LDAP search returned no results
+        if result_df.empty: # If the LDAP search returned no results 
             existing_staff = EDStaff.query.filter_by(displayname=full_name).first()
-
-            current_time = datetime.utcnow()
-
-            if existing_staff:
-                # If the staff already exists, update the update_date
+            
+            #check if the full_name pulled from the report already exists in the ed_staff table
+            if existing_staff: # If the full_name already exists, just update the update_date
                 existing_staff.update_date = current_time
-            else:
-                # If no such staff exists, create a new one
+            else: # If no such staff exists, create a new one and insert now for creation date and update date
                 new_staff = EDStaff(displayname=full_name, initial_creation_date=current_time, update_date=current_time)
                 db.session.add(new_staff)
 
-        else:  # Check if the LDAP search returned any results
+        else:  # If the LDAP search returned results
             for _, row in result_df.iterrows():
                 # Create a dictionary for the LDAPUserData record
                 ldap_record = {attr: row[attr] for attr in ATTRIBUTES if attr in row}
                 # Check if the record already exists in the internal ldap_user_data table
                 existing_user = LDAPUserData.query.filter_by(uid=ldap_record['uid']).first()
+                # Also check to see if the full_name exists in the ed_staff table
                 
                 if not existing_user:
                     # If the record does not exist, create and add the new LDAPUserData record to the session
                     new_ldap_user = LDAPUserData(**ldap_record)
                     db.session.add(new_ldap_user)
 
+                #Check to see if there is a report_ldap_mapping for the record
                 existing_entry = ReportLDAPMappings.query.filter_by(full_name = full_name, uid = ldap_record.get('uid', None)).first()
 
-                if existing_entry:
-                    # If the entry exists with a blank UID, update it
+                if existing_entry: # If the entry exists with a blank UID, update it
                     if existing_entry.uid is None:
                         existing_entry.uid = ldap_record.get('uid')
-                else:
-                    # If no such entry exists, create a new one
-                    new_entry = ReportLDAPMappings(full_name=full_name, uid=ldap_record.get('uid'))
+                else: # If no such entry exists, create a new one
+                    new_entry = ReportLDAPMappings(full_name = full_name, uid = ldap_record.get('uid'))
                     db.session.add(new_entry)
-            # Commit the session to save all new records to the database
+
+                #Check to see if the user_staff table has a record with the full_name string in it
+                ed_staff_existing_user = EDStaff.query.filter_by(displayname = full_name).first()
+                
+                if ed_staff_existing_user: #If there is a a record that has a full_name exactly matching the report value
+                    #check to see if there is a value associated with the username column for that record
+                    existing_username = ed_staff_existing_user.username
+                                               
+                    if existing_username is None: #if there is no value available under the username then update it with the uid
+                         ed_staff_existing_user.username = ldap_record.get('uid')
+
+                else: #if there is no matching displayname then add the new record to the ed_staff table
+                    new_ed_staff_user = EDStaff(
+                        displayname=full_name,
+                        username=ldap_record.get('uid', None),
+                        initial_creation_date = current_time,
+                        update_date =  current_time
+                    )
+
+                    db.session.add(new_ed_staff_user)
+
+        # Commit the session to save all new records to the database
         try:
             db.session.commit()
         except Exception as e:
             db.session.rollback()  # Rollback the changes on error
             current_app.logger.error(f"Error updating LDAPUserData: {str(e)}")
             raise  # Optionally re-raise the exception or handle it as needed
-
-
-
-
-
 
 
 if __name__ == "__main__":
