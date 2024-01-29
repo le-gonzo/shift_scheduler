@@ -34,18 +34,29 @@ def daily():
     # Get the current date
     current_date = date.today()
 
-    locations_with_assignments = (Location.query
-    .join(assignment_alias1, Location.id == assignment_alias1.location_id)
-        .filter(
-            or_(Location.valid_end == None, 
-                and_(Location.valid_start <= current_date, Location.valid_end >= current_date)
-            )
-        )
-        .filter(
-            or_(assignment_alias1.valid_end == None, 
-                and_(assignment_alias1.valid_start <= current_date, assignment_alias1.valid_end >= current_date)
-            )
-        )
+    
+    # Define a filter for locations that are currently valid
+    # A location is considered valid if it has no end date or if the current date is within the valid start and end dates
+    current_valid_locations = or_(
+        Location.valid_end == None, 
+        and_(Location.valid_start <= current_date, Location.valid_end >= current_date)
+    )
+
+    # Define a similar filter for assignments
+    # An assignment is considered valid under the same conditions as a location
+    current_valid_assignments = or_(
+        assignment_alias1.valid_end == None, 
+        and_(assignment_alias1.valid_start <= current_date, assignment_alias1.valid_end >= current_date)
+    )
+
+    # Combine the above filters in the query
+    # Join the Location and Assignment tables, apply the validity filters, and sort by display_order
+    locations_with_assignments = (
+        Location.query
+        .join(assignment_alias1, Location.id == assignment_alias1.location_id)
+        .filter(current_valid_locations)
+        .filter(current_valid_assignments)
+        .order_by(Location.display_order)
     ).all()
 
     timeslots = ShiftTemplate.query.all()
